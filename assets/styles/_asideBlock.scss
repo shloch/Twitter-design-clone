@@ -1,0 +1,30 @@
+div[id="rightBlock" ]{
+ 
+  border: 1px solid orangered;
+  .other-profiles {
+    width:100%;
+    .heading {
+      width: 100%;
+      border: 1px solid wheat;
+    }
+    .profile-1 {
+      display: flex;
+      flex-direction: row;
+      width: 100%;
+      border: 1px solid wheat;
+      .profile-name {
+        width: 53%;
+        border: 1px solid yellow;
+      }
+      .profile-img {
+        width: 18%;
+      }
+      .follow-btn {
+        width: 29%;
+      }
+      div{
+        border: 1px solid orchid;
+      }
+    }
+  }
+}
