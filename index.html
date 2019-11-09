@@ -1,0 +1,1328 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+
+  <title>Twittter clone design</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="The HTML5 Herald">
+  <meta name="shloch-bella" content="Twitter">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+    integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous" />
+  <link rel="stylesheet" href="assets/styles/main.css">
+</head>
+
+<body>
+  <div class='container'>
+    <div class='row'>
+
+      <div class='col-lg-3 col-md-1 col-2'>
+
+        <nav>
+          <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
+
+          <ul class="nav flex-column">
+            <li class="nav-item">
+              <a class="nav-link active" href="#"><i class="fas fa-house-damage"></i> <span
+                  class="menu-text">Home</span></a>
+
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"> <i class="fab fa-slack-hash"></i> <span class="menu-text">Explore</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="far fa-bell"></i> <span class="menu-text">Notifications</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="far fa-envelope"></i> <span class="menu-text">Messages</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="far fa-bookmark"></i> <span class="menu-text">Bookmarks</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="far fa-list-alt"></i> <span class="menu-text">Lists</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="far fa-user-circle"></i> <span class="menu-text">Profile</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="fas fa-ellipsis-h"></i> <span class="menu-text">More</span></a>
+            </li>
+          </ul>
+          <button type="button" class="btn btn-primary btn-sm tweeterBtn">Tweet</button>
+        </nav>
+
+
+      </div>
+      <div class='col-lg-6 col-md-11 col-10'>
+          CREATE ACCOUNT (or log in )
+          EMAIL
+          PUBLIC USERNAME
+          PASSWORD
+          PASSWORD CONFIRMATION
+          QUICK CHECKOUT
+          OR PAY BY CREDIT CARD
+          CARD INFO
+          CONFIRM
+          TOTAL TODAY
+          $0.00
+          COMPLETE CHECKOUT
+          Payment
+          Payments and credit card details are securely managed and protected by Learn Enough's payment processor, Stripe. More information on their site:
+          Stripe
+          
+          Cart empty
+          Your Cart is Empty
+          SEE THE TUTORIALS
+          CURRENT $ /MO $30 NEW $ /MO $300 CHANGE $300
+          CHECKOUT NOW / UPDATE SUBSCRIPTION CANCEL
+          JUST TO CONFIRM, NEW $ /MO $XY COST TODAY $XY ON CARD ENDING 1234
+          CONFIRM CHANGE CANCEL
+           LEARN ENOUGH
+          Courses
+          Pricing
+          The Rails Tutorial
+          For Teams
+          Log In
+           Cart 
+           
+           Mailing List
+           Tutorial Features
+           Subscribe to Course
+           Application Development Bundle
+           Books & Offline Videos
+          1. From zero to deploy
+          1.1 Introduction
+          1.1.1 Prerequisites
+          1.1.2 Conventions used in this book
+          1.2 Up and running
+          1.2.1 Development environment
+          1.2.2 Installing Rails
+          1.3 The first application
+          1.3.1 Bundler
+          1.3.2 rails server
+          1.3.3 Model-View-Controller (MVC)
+          1.3.4 Hello, world!
+          1.4 Version control with Git
+          1.4.1 Installation and setup
+          1.4.2 What good does Git do you?
+          1.4.3 Bitbucket
+          1.4.4 Branch, edit, commit, merge
+          1.5 Deploying
+          1.5.1 Heroku setup
+          1.5.2 Heroku deployment, step one
+          1.5.3 Heroku deployment, step two
+          1.5.4 Heroku commands
+          1.6 Conclusion
+          1.6.1 What we learned in this chapter
+          2. A toy app
+          2.1 Planning the application
+          2.1.1 A toy model for users
+          2.1.2 A toy model for microposts
+          2.2 The Users resource
+          2.2.1 A user tour
+          2.2.2 MVC in action
+          2.2.3 Weaknesses of this Users resource
+          2.3 The Microposts resource
+          2.3.1 A micropost microtour
+          2.3.2 Putting the micro in microposts
+          2.3.3 A user hasmany microposts
+          2.3.4 Inheritance hierarchies
+          2.3.5 Deploying the toy app
+          2.4 Conclusion
+          2.4.1 What we learned in this chapter
+          3. Mostly static pages
+          3.1 Sample app setup
+          3.2 Static pages
+          3.2.1 Generated static pages
+          3.2.2 Custom static pages
+          3.3 Getting started with testing
+          3.3.1 Our first test
+          3.3.2 Red
+          3.3.3 Green
+          3.3.4 Refactor
+          3.4 Slightly dynamic pages
+          3.4.1 Testing titles (Red)
+          3.4.2 Adding page titles (Green)
+          3.4.3 Layouts and embedded Ruby (Refactor)
+          3.4.4 Setting the root route
+          3.5 Conclusion
+          3.5.1 What we learned in this chapter
+          3.6 Advanced testing setup
+          3.6.1 minitest reporters
+          3.6.2 Automated tests with Guard
+          4. Rails-flavored Ruby
+          4.1 Motivation
+          4.1.1 Built-in helpers
+          4.1.2 Custom helpers
+          4.2 Strings and methods
+          4.2.1 Comments
+          4.2.2 Strings
+          4.2.3 Objects and message passing
+          4.2.4 Method definitions
+          4.2.5 Back to the title helper
+          4.3 Other data structures
+          4.3.1 Arrays and ranges
+          4.3.2 Blocks
+          4.3.3 Hashes and symbols
+          4.3.4 CSS revisited
+          4.4 Ruby classes
+          4.4.1 Constructors
+          4.4.2 Class inheritance
+          4.4.3 Modifying built-in classes
+          4.4.4 A controller class
+          4.4.5 A user class
+          4.5 Conclusion
+          4.5.1 What we learned in this chapter
+          5. Filling in the layout
+          5.1 Adding some structure
+          5.1.1 Site navigation
+          5.1.2 Bootstrap and custom CSS
+          5.1.3 Partials
+          5.2 Sass and the asset pipeline
+          5.2.1 The asset pipeline
+          5.2.2 Syntactically awesome stylesheets
+          5.3 Layout links
+          5.3.1 Contact page
+          5.3.2 Rails routes
+          5.3.3 Using named routes
+          5.3.4 Layout link tests
+          5.4 User signup: A first step
+          5.4.1 Users controller
+          5.4.2 Signup URL
+          5.5 Conclusion
+          5.5.1 What we learned in this chapter
+          6. Modeling users
+          6.1 User model
+          6.1.1 Database migrations
+          6.1.2 The model file
+          6.1.3 Creating user objects
+          6.1.4 Finding user objects
+          6.1.5 Updating user objects
+          6.2 User validations
+          6.2.1 A validity test
+          6.2.2 Validating presence
+          6.2.3 Length validation
+          6.2.4 Format validation
+          6.2.5 Uniqueness validation
+          6.3 Adding a secure password
+          6.3.1 A hashed password
+          6.3.2 User has secure password
+          6.3.3 Minimum password standards
+          6.3.4 Creating and authenticating a user
+          6.4 Conclusion
+          6.4.1 What we learned in this chapter
+          7. Sign up
+          7.1 Showing users
+          7.1.1 Debug and Rails environments
+          7.1.2 A Users resource
+          7.1.3 Debugger
+          7.1.4 A Gravatar image and a sidebar
+          7.2 Signup form
+          7.2.1 Using formfor
+          7.2.2 Signup form HTML
+          7.3 Unsuccessful signups
+          7.3.1 A working form
+          7.3.2 Strong parameters
+          7.3.3 Signup error messages
+          7.3.4 A test for invalid submission
+          7.4 Successful signups
+          7.4.1 The finished signup form
+          7.4.2 The flash
+          7.4.3 The first signup
+          7.4.4 A test for valid submission
+          7.5 Professional-grade deployment
+          7.5.1 SSL in production
+          7.5.2 Production webserver
+          7.5.3 Production database configuration
+          7.5.4 Production deployment
+          7.6 Conclusion
+          7.6.1 What we learned in this chapter
+          8. Basic login
+          8.1 Sessions
+          8.1.1 Sessions controller
+          8.1.2 Login form
+          8.1.3 Finding and authenticating a user
+          8.1.4 Rendering with a flash message
+          8.1.5 A flash test
+          8.2 Logging in
+          8.2.1 The login method
+          8.2.2 Current user
+          8.2.3 Changing the layout links
+          8.2.4 Testing layout changes
+          8.2.5 Login upon signup
+          8.3 Logging out
+          8.4 Conclusion
+          8.4.1 What we learned in this chapter
+          9. Advanced login
+          9.1 Remember me
+          9.1.1 Remember token and digest
+          9.1.2 Login with remembering
+          9.1.3 Forgetting users
+          9.1.4 Two subtle bugs
+          9.2 “Remember me” checkbox
+          9.3 Remember tests
+          9.3.1 Testing the “remember me” box
+          9.3.2 Testing the remember branch
+          9.4 Conclusion
+          9.4.1 What we learned in this chapter
+          10. Updating, showing, and deleting users
+          10.1 Updating users
+          10.1.1 Edit form
+          10.1.2 Unsuccessful edits
+          10.1.3 Testing unsuccessful edits
+          10.1.4 Successful edits (with TDD)
+          10.2 Authorization
+          10.2.1 Requiring logged-in users
+          10.2.2 Requiring the right user
+          10.2.3 Friendly forwarding
+          10.3 Showing all users
+          10.3.1 Users index
+          10.3.2 Sample users
+          10.3.3 Pagination
+          10.3.4 Users index test
+          10.3.5 Partial refactoring
+          10.4 Deleting users
+          10.4.1 Administrative users
+          10.4.2 The destroy action
+          10.4.3 User destroy tests
+          10.5 Conclusion
+          10.5.1 What we learned in this chapter
+          11. Account activation
+          11.1 Account activations resource
+          11.1.1 Account activations controller
+          11.1.2 Account activation data model
+          11.2 Account activation emails
+          11.2.1 Mailer templates
+          11.2.2 Email previews
+          11.2.3 Email tests
+          11.2.4 Updating the Users create action
+          11.3 Activating the account
+          11.3.1 Generalizing the authenticated? method
+          11.3.2 Activation edit action
+          11.3.3 Activation test and refactoring
+          11.4 Email in production
+          11.5 Conclusion
+          11.5.1 What we learned in this chapter
+          12. Password reset
+          12.1 Password resets resource
+          12.1.1 Password resets controller
+          12.1.2 New password resets
+          12.1.3 Password reset create action
+          12.2 Password reset emails
+          12.2.1 Password reset mailer and templates
+          12.2.2 Email tests
+          12.3 Resetting the password
+          12.3.1 Reset edit action
+          12.3.2 Updating the reset
+          12.3.3 Password reset test
+          12.4 Email in production (take two)
+          12.5 Conclusion
+          12.5.1 What we learned in this chapter
+          12.6 Proof of expiration comparison
+          13. User microposts
+          13.1 A Micropost model
+          13.1.1 The basic model
+          13.1.2 Micropost validations
+          13.1.3 User/Micropost associations
+          13.1.4 Micropost refinements
+          13.2 Showing microposts
+          13.2.1 Rendering microposts
+          13.2.2 Sample microposts
+          13.2.3 Profile micropost tests
+          13.3 Manipulating microposts
+          13.3.1 Micropost access control
+          13.3.2 Creating microposts
+          13.3.3 A proto-feed
+          13.3.4 Destroying microposts
+          13.3.5 Micropost tests
+          13.4 Micropost images
+          13.4.1 Basic image upload
+          13.4.2 Image validation
+          13.4.3 Image resizing
+          13.4.4 Image upload in production
+          13.5 Conclusion
+          13.5.1 What we learned in this chapter
+          14. Following users
+          14.1 The Relationship model
+          14.1.1 A problem with the data model (and a solution)
+          14.1.2 User/relationship associations
+          14.1.3 Relationship validations
+          14.1.4 Followed users
+          14.1.5 Followers
+          14.2 A web interface for following users
+          14.2.1 Sample following data
+          14.2.2 Stats and a follow form
+          14.2.3 Following and followers pages
+          14.2.4 A working follow button the standard way
+          14.2.5 A working follow button with Ajax
+          14.2.6 Following tests
+          14.3 The status feed
+          14.3.1 Motivation and strategy
+          14.3.2 A first feed implementation
+          14.3.3 Subselects
+          14.4 Conclusion
+          14.4.1 Guide to further resources
+          14.4.2 What we learned in this chapter
+          GET SINGLE TUTORIAL  
+          Ruby on Rails Tutorial (Rails 5) is available as an ebook, an offline video series, and as a structured, self-paced online course. The course includes full online access to the book content, streaming videos, progress tracking, exercises, and community exercise answers.
+          
+          SEE OPTIONS - STARTING AT $29
+          ALL ACCESS BUNDLE  
+          The Learn Enough All Access Bundle includes the entire Learn Enough introductory sequence and the full Ruby on Rails Tutorial. More than 2500 pages of book content and 53 hours of video that teach you to code from total beginner up to professional-grade web development.
+          
+           ADD TO CART : $ 49 /MO
+          Cover web
+          Ruby on Rails Tutorial (Rails 5)
+          Michael Hartl
+          NOTE: There is a newer version of the Ruby on Rails Tutorial available here
+          
+          Foreword
+          My former company (CD Baby) was one of the first to loudly switch to Ruby on Rails, and then even more loudly switch back to PHP (Google me to read about the drama). This book by Michael Hartl came so highly recommended that I had to try it, and the Ruby on Rails Tutorial is what I used to switch back to Rails again.
+          
+          Though I’ve worked my way through many Rails books, this is the one that finally made me “get” it. Everything is done very much “the Rails way”—a way that felt very unnatural to me before, but now after doing this book finally feels natural. This is also the only Rails book that does test-driven development the entire time, an approach highly recommended by the experts but which has never been so clearly demonstrated before. Finally, by including Git, GitHub, and Heroku in the demo examples, the author really gives you a feel for what it’s like to do a real-world project. The tutorial’s code examples are not in isolation.
+          
+          The linear narrative is such a great format. Personally, I powered through the Rails Tutorial in three long days,1 doing all the examples and challenges at the end of each chapter. Do it from start to finish, without jumping around, and you’ll get the ultimate benefit.
+          
+          Enjoy!
+          
+          Derek Sivers (sivers.org)
+          Founder, CD Baby
+          
+          Acknowledgments
+          The Ruby on Rails Tutorial owes a lot to my previous Rails book, RailsSpace, and hence to my coauthor Aurelius Prochazka. I’d like to thank Aure both for the work he did on that book and for his support of this one. I’d also like to thank Debra Williams Cauley, my editor on both RailsSpace and the Ruby on Rails Tutorial; as long as she keeps taking me to baseball games, I’ll keep writing books for her.
+          
+          I’d like to acknowledge a long list of Rubyists who have taught and inspired me over the years: David Heinemeier Hansson, Yehuda Katz, Carl Lerche, Jeremy Kemper, Xavier Noria, Ryan Bates, Geoffrey Grosenbach, Peter Cooper, Matt Aimonetti, Mark Bates, Gregg Pollack, Wayne E. Seguin, Amy Hoy, Dave Chelimsky, Pat Maddox, Tom Preston-Werner, Chris Wanstrath, Chad Fowler, Josh Susser, Obie Fernandez, Ian McFarland, Steven Bristol, Pratik Naik, Sarah Mei, Sarah Allen, Wolfram Arnold, Alex Chaffee, Giles Bowkett, Evan Dorn, Long Nguyen, James Lindenbaum, Adam Wiggins, Tikhon Bernstam, Ron Evans, Wyatt Greene, Miles Forrest, Sandi Metz, Ryan Davis, Aaron Patterson, the good people at Pivotal Labs, the Heroku gang, the thoughtbot guys, and the GitHub crew.
+          
+          I’d like to thank technical reviewer Andrew Thai for his careful reading of the manuscript and for his helpful suggestions. I’d also like to thank my cofounders at Learn Enough, Nick Merwin and Lee Donahoe, for all their help in preparing this tutorial.
+          
+          Finally, many, many readers—far too many to list—have contributed a huge number of bug reports and suggestions during the writing of this book, and I gratefully acknowledge their help in making it as good as it can be.
+          
+          About the author
+          Michael Hartl is the creator of the Ruby on Rails Tutorial, one of the leading introductions to web development, and is cofounder and principal author at LearnEnough.com. Previously, he was a physics instructor at the California Institute of Technology (Caltech), where he received a Lifetime Achievement Award for Excellence in Teaching. He is a graduate of Harvard College, has a Ph.D. in Physics from Caltech, and is an alumnus of the Y Combinator entrepreneur program.
+          
+          Copyright and license
+          Ruby on Rails Tutorial: Learn Web Development with Rails. Copyright © 2016 by Michael Hartl. Last updated 2019/11/04 11:48:59 PT.
+          
+          All source code in the Ruby on Rails Tutorial is available jointly under the MIT License and the Beerware License.
+          
+          The MIT License
+          
+          Copyright (c) 2016 Michael Hartl
+          
+          Permission is hereby granted, free of charge, to any person obtaining a copy
+          of this software and associated documentation files (the "Software"), to deal
+          in the Software without restriction, including without limitation the rights
+          to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+          copies of the Software, and to permit persons to whom the Software is
+          furnished to do so, subject to the following conditions:
+          
+          The above copyright notice and this permission notice shall be included in
+          all copies or substantial portions of the Software.
+          
+          THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+          IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+          FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.  IN NO EVENT SHALL THE
+          AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+          LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+          OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+          THE SOFTWARE.
+          THE BEERWARE LICENSE (Revision 42)
+          
+          Michael Hartl wrote this code. As long as you retain this notice you can do
+          whatever you want with this stuff. If we meet some day, and you think this
+          stuff is worth it, you can buy me a beer in return.
+          Chapter 1
+          From zero to deploy
+          
+          Welcome to Ruby on Rails Tutorial: Learn Web Development with Rails. The purpose of this book is to teach you how to develop custom web applications, and our tool of choice is the popular Ruby on Rails web framework. In addition to focusing on general principles of web development (rather than on Rails specifically), the Ruby on Rails Tutorial teaches the broader skill of technical sophistication (Box 1.1), which is a principal theme developed by the Learn Enough to Be Dangerous tutorials.1 In particular, the Learn Enough introductory sequence consists of a series of tutorials that are suitable as prerequisites to the Ruby on Rails Tutorial, starting with Learn Enough Command Line to Be Dangerous,2 which (unlike the present tutorial) is aimed at complete beginners.
+          
+          Box 1.1. Technical sophistication
+          The Ruby on Rails Tutorial is part of the Learn Enough to Be Dangerous family of tutorials, which develop the theme of technical sophistication: the combination of hard and soft skills that make it seem like you can magically solve any technical problem (as illustrated in “Tech Support Cheat Sheet” from xkcd). Web development, and computer programming in general, are essential components of technical sophistication, but there’s more to it than that—you also have to know how to click around menu items to learn the capabilities of a particular application, how to clarify a confusing error message by Googling it, or when to give up and just reboot the darn thing.
+          
+          Because web applications have so many moving parts, they offer ample opportunities to develop your technical sophistication. In the context of Rails web development, some specific examples of technical sophistication include making sure you’re using the right Ruby gem versions, running bundle install or bundle update, and restarting the local webserver if something doesn’t work. (Don’t worry if all this sounds like gibberish; we’ll cover everything mentioned here in the course of completing this tutorial.)
+          
+          As you proceed through this tutorial, in all likelihood you will occasionally be tripped up by things not immediately working as expected. Although some particularly tricky steps are explicitly highlighted in the text, it is impossible to anticipate all the things that can go wrong. I recommend you embrace these inevitable stumbling blocks as opportunities to work on improving your technical sophistication. Or, as we say in geek speak: It’s not a bug, it’s a feature!
+          
+          The Ruby on Rails Tutorial is designed to give you a thorough introduction to web application development, including a basic grounding in Ruby, Rails, HTML & CSS, databases, version control, testing, and deployment—sufficient to launch you on a career as a web developer or technology entrepreneur. If you already know web development, this book will quickly teach you the essentials of the Rails framework, including MVC and REST, generators, migrations, routing, and embedded Ruby. In any case, when you finish the Ruby on Rails Tutorial you will be in a position to benefit from the many more advanced books, blogs, and screencasts that are part of the thriving programming educational ecosystem.3
+          
+          The Ruby on Rails Tutorial takes an integrated approach to web development by building three example applications of increasing sophistication, starting with a minimal hello app (Section 1.3), a slightly more capable toy app (Chapter 2), and a real sample app (Chapter 3 through Chapter 14). As implied by their generic names, the applications developed in the Ruby on Rails Tutorial are not specific to any particular kind of website. The final sample application bears more than a passing resemblance to Twitter (which, coincidentally, was also originally written in Rails), but the emphasis throughout the tutorial is on general principles, so you will have a solid foundation no matter what kinds of web applications you want to build.
+          
+          In this first chapter, we’ll get started with Ruby on Rails by installing all the necessary software and by setting up our development environment (Section 1.2). We’ll then create our first Rails application, called hello_app. The Rails Tutorial emphasizes good software development practices, so immediately after creating our fresh new Rails project we’ll put it under version control with Git (Section 1.4). And, believe it or not, in this chapter we’ll even put our first app on the wider web by deploying it to production (Section 1.5).
+          
+          In Chapter 2, we’ll make a second project, whose purpose is to demonstrate the basic workings of a Rails application. To get up and running quickly, we’ll build this toy app (called toy_app) using scaffolding (Box 1.2) to generate code; because this code is both ugly and complex, Chapter 2 will focus on interacting with the toy app through its URIs (often called URLs)4 using a web browser.
+          
+          The rest of the tutorial focuses on developing a single large real sample application (called sample_app), writing all the code from scratch. We’ll develop the sample app using a combination of mockups, test-driven development (TDD), and integration tests. We’ll get started in Chapter 3 by creating static pages and then add a little dynamic content. We’ll take a quick detour in Chapter 4 to learn a little about the Ruby language underlying Rails. Then, in Chapter 5 through Chapter 12, we’ll complete the foundation for the sample application by making a site layout, a user data model, and a full registration and authentication system (including account activation and password resets). Finally, in Chapter 13 and Chapter 14 we’ll add microblogging and social features to make a working example site.
+          
+          Box 1.2. Scaffolding: Quicker, easier, more seductive
+          From the beginning, Rails has benefited from a palpable sense of excitement, starting with the famous 15-minute weblog video by Rails creator David Heinemeier Hansson. That video and its successors are a great way to get a taste of Rails’ power, and I recommend watching them. But be warned: they accomplish their amazing fifteen-minute feat using a feature called scaffolding, which relies heavily on generated code, magically created by the Rails generate scaffold command.
+          
+          When writing a Ruby on Rails tutorial, it is tempting to rely on the scaffolding approach—it’s quicker, easier, more seductive. But the complexity and sheer amount of code in the scaffolding can be utterly overwhelming to a beginning Rails developer; you may be able to use it, but you probably won’t understand it. Following the scaffolding approach risks turning you into a virtuoso script generator with little (and brittle) actual knowledge of Rails.
+          
+          In the Ruby on Rails Tutorial, we’ll take the (nearly) polar opposite approach: although Chapter 2 will develop a small toy app using scaffolding, the core of the Rails Tutorial is the sample app, which we’ll start writing in Chapter 3. At each stage of developing the sample application, we will write small, bite-sized pieces of code—simple enough to understand, yet novel enough to be challenging. The cumulative effect will be a deeper, more flexible knowledge of Rails, giving you a good background for writing nearly any type of web application.
+          
+          1.1Introduction
+          Ruby on Rails (or just “Rails” for short) is a web development framework written in the Ruby programming language. Since its debut in 2004, Ruby on Rails has rapidly become one of the most powerful and popular tools for building dynamic web applications. Rails is used by companies as varied as Airbnb, Basecamp, Disney, GitHub, Hulu, Kickstarter, Shopify, Twitter, and the Yellow Pages. There are also many web development shops that specialize in Rails, such as ENTP, thoughtbot, Pivotal Labs, Hashrocket, and HappyFunCorp, plus innumerable independent consultants, trainers, and contractors.
+          
+          What makes Rails so great? First of all, Ruby on Rails is 100% open-source, available under the generous MIT License, and as a result it also costs nothing to download or use. Rails also owes much of its success to its elegant and compact design; by exploiting the malleability of the underlying Ruby language, Rails effectively creates a domain-specific language for writing web applications. As a result, many common web programming tasks—such as generating HTML, making data models, and routing URLs—are easy with Rails, and the resulting application code is concise and readable.
+          
+          Rails also adapts rapidly to new developments in web technology and framework design. For example, Rails was one of the first frameworks to fully digest and implement the REST architectural style for structuring web applications (which we’ll be learning about throughout this tutorial). And when other frameworks develop successful new techniques, Rails creator David Heinemeier Hansson and the Rails core team don’t hesitate to incorporate their ideas. Perhaps the most dramatic example is the merger of Rails and Merb, a rival Ruby web framework, so that Rails now benefits from Merb’s modular design, stable API, and improved performance.
+          
+          Finally, Rails benefits from an unusually enthusiastic and supportive community. The results include thousands of open-source contributors, fun and informative conferences, a huge number of gems (self-contained solutions to specific problems such as pagination and image upload), a rich variety of informative blogs, and a cornucopia of discussion forums and IRC channels. The large number of Rails programmers also makes it easier to handle the inevitable application errors: the “Google the error message” algorithm nearly always produces a relevant blog post or discussion-forum thread.
+          
+          1.1.1Prerequisites
+          There are no formal prerequisites to this book, and the Ruby on Rails Tutorial contains integrated tutorials not only for Rails, but also for the underlying Ruby language, the default Rails testing framework (minitest), the Unix command line, HTML, CSS, a small amount of JavaScript, and even a little SQL. That’s a lot of material to absorb, though, and I generally recommend having some HTML and programming background before starting this tutorial. If you’re new to software development, I recommend starting with the tutorials at Learn Enough instead:
+          
+          Developer Fundamentals
+          Learn Enough Command Line to Be Dangerous
+          Learn Enough Text Editor to Be Dangerous
+          Learn Enough Git to Be Dangerous
+          Web Basics
+          Learn Enough HTML to Be Dangerous
+          Learn Enough CSS & Layout to Be Dangerous
+          Beginning Development
+          Learn Enough JavaScript to Be Dangerous
+          Learn Enough Ruby to Be Dangerous
+          Application Development
+          The Ruby on Rails Tutorial
+          One common question when learning Rails is whether to learn Ruby first. The answer depends on your personal learning style and how much programming experience you already have. If you prefer to learn everything systematically from the ground up, or if you have never programmed before, then learning Ruby first might work well for you, and in this case I recommend following the full Learn Enough sequence listed above. On the other hand, many beginning Rails developers are excited about making web applications, and would rather not wait to finish a whole book on Ruby before ever writing a single web page. In this case, I recommend giving this tutorial a go and switching to the Learn Enough sequence if it proves too challenging.
+          
+          At the end of this tutorial, no matter where you started, you should be ready for the many more intermediate-to-advanced Rails resources out there. Here are some I particularly recommend:
+          
+          The Learn Enough Society: Premium subscription service that includes a special enhanced version of the Ruby on Rails Tutorial book and 15+ hours of streaming screencast lessons filled with the kind of tips, tricks, and live demos that you can’t get from reading a book. Also includes text and videos for the other Learn Enough tutorials. Scholarship discounts are available.
+          The Turing School of Software & Design: A full-time, 27-week training program in Denver, Colorado
+          Bloc: An online bootcamp with a structured curriculum, personalized mentorship, and a focus on learning through concrete projects. Use the coupon code BLOCLOVESHARTL to get $500 off the enrollment fee.
+          Launch School: A good online Rails development bootcamp (includes advanced material)
+          Thinkful: An online class that pairs you with a professional engineer as you work through a project-based curriculum
+          Pragmatic Studio: Online Ruby and Rails courses from Mike and Nicole Clark. Along with Programming Ruby author Dave Thomas, Mike taught the first Rails course I took, way back in 2006.
+          RailsApps: A large variety of detailed topic-specific Rails projects and tutorials
+          Rails Guides: Topical and up-to-date Rails references
+          Exercises
+          The Ruby on Rails Tutorial contains a large number of exercises. Solving them as you proceed through the tutorial is strongly recommended.
+          
+          In order to keep the main discussion independent of the exercises, the solutions are not generally incorporated into subsequent code listings. (In the rare circumstance that an exercise solution is used subsequently, it is explicitly solved in the main text.) This means that over time your code may diverge from the code shown in the tutorial due to differences introduced in the exercises. Learning how to resolve such discrepancies is a valuable exercise in technical sophistication (Box 1.1).
+          
+          To record your answers and see solutions, you can join the Learn Enough Society, a subscription service from Learn Enough to Be Dangerous that includes a special enhanced version of the Ruby on Rails Tutorial.
+          
+          Many of the exercises are challenging, but we’ll start out with some easy ones just to get warmed up:
+          
+          Which website hosts the Ruby gem for Ruby on Rails? Hint: When in doubt, Google it.
+          What is the current version number of Rails?
+          As of this moment, how many total times has Ruby on Rails been downloaded?
+          1.1.2Conventions used in this book
+          The conventions used in this book are mostly self-explanatory. In this section, we’ll go over some that may not be.
+          
+          Many examples in this book use command-line commands. For simplicity, all command line examples use a Unix-style command line prompt (a dollar sign), as follows:
+          
+          $ echo "hello, world"
+          hello, world
+          Rails comes with many commands that can be run at the command line. For example, in Section 1.3.2 we’ll run a local development webserver with the rails server command:
+          
+          $ rails server
+          As with the command-line prompt, the Rails Tutorial uses the Unix convention for directory separators (i.e., a forward slash /). For example, the sample application production.rb configuration file appears as follows:
+          
+          config/environments/production.rb
+          This file path should be understood as being relative to the application’s root directory, which will vary by system; on the cloud IDE (Section 1.2.1), it looks like this:
+          
+          /home/ec2-user/environment/sample_app/
+          Thus, the full path to production.rb is
+          
+          /home/ec2-user/environment/sample_app/config/environments/production.rb
+          I will typically omit the application path and write just config/environments/production.rb for short.
+          
+          The Rails Tutorial often shows output from various programs. Because of the innumerable small differences between different computer systems, the output you see may not always agree exactly with what is shown in the text, but this is not cause for concern. In addition, some commands may produce errors depending on your system; rather than attempt the Sisyphean task of documenting all such errors in this tutorial, I will delegate to the “Google the error message” algorithm, which among other things is good practice for real-life software development (Box 1.1). If you run into any problems while following the tutorial, I suggest consulting the resources listed in the Rails Tutorial help page.5
+          
+          Because the Rails Tutorial covers testing of Rails applications, it is often helpful to know if a particular piece of code causes the test suite to fail (indicated by the color red) or pass (indicated by the color green). For convenience, code resulting in a failing test is thus indicated with red, while code resulting in a passing test is indicated with green.
+          
+          Finally, for convenience the Ruby on Rails Tutorial adopts two conventions designed to make the many code samples easier to understand. First, some code listings include one or more highlighted lines, as seen below:
+          
+          class User < ApplicationRecord
+            validates :name,  presence: true
+            validates :email, presence: true
+          end
+          Such highlighted lines typically indicate the most important new code in the given sample, and often (though not always) represent the difference between the present code listing and previous listings. Second, for brevity and simplicity many of the book’s code listings include vertical dots, as follows:
+          
+          class User < ApplicationRecord
+            .
+            .
+            .
+            has_secure_password
+          end
+          These dots represent omitted code and should not be copied literally.
+          
+          1.2Up and running
+          Even for experienced Rails developers, installing Ruby, Rails, and all the associated supporting software can be an exercise in frustration. Compounding the problem is the multiplicity of environments: different operating systems, version numbers, preferences in text editor and integrated development environment (IDE), etc. The Ruby on Rails Tutorial offers two recommended solutions to this problem. One possibility is to follow the full Learn Enough intro sequence mentioned in Section 1.1.1, which will automatically lead to a system configured for this tutorial.
+          
+          The other possibility, recommended for newer users, is to sidestep such installation and configuration issues by using a cloud integrated development environment, or cloud IDE. The cloud IDE used in this tutorial runs inside an ordinary web browser, and hence works the same across different platforms, which is especially useful for operating systems (such as Windows) on which Rails development has historically been difficult. It also maintains the current state of your work, so you can take a break from the tutorial and come back to the system just as you left it.
+          
+          1.2.1Development environment
+          Considering various idiosyncratic customizations, there are probably as many development environments as there are Rails programmers. To avoid this complexity, the Ruby on Rails Tutorial standardizes on the excellent cloud development environment Cloud9, part of Amazon Web Services (AWS). The resulting workspace environment comes pre-configured with most of the software needed for professional-grade Rails development, including Ruby, RubyGems, Git. (Indeed, the only big piece of software we’ll install separately is Rails itself, and this is intentional (Section 1.2.2).)
+          
+          Although you are welcome to develop your application locally, setting up a Rails development environment can be challenging, so I recommend the cloud IDE for most readers. For those who want to go the local route, try the steps from Learn Enough Dev Environment to Be Dangerous, and be prepared for a challenging exercise in technical sophistication (Box 1.1).
+          
+          The cloud IDE includes the three essential components needed to develop web applications: a text editor, a filesystem navigator, and a command-line terminal (Figure 1.1). Among other features, the cloud IDE text editor supports the “Find in Files” global search that I consider essential to navigating any large Ruby or Rails project.6 Finally, even if you decide not to use the cloud IDE exclusively in real life (and I certainly recommend learning other tools as well), it provides an excellent introduction to the general capabilities of text editors and other development tools.
+          
+          images/figures/ide_anatomy_aws
+          Figure 1.1: The anatomy of the cloud IDE.
+          Here are the steps for getting started with the cloud development environment:7
+          
+          Because Cloud9 is part of Amazon Web Services (AWS), if you already have an AWS account you can just sign in.8 To create a new Cloud9 workspace environment, go to the AWS console and type “Cloud9” in the search box.
+          If you don’t already have an AWS account, you should sign up for a free account at AWS Cloud9.9 In order to prevent abuse, AWS requires a valid credit card for signup, but the workspace is 100% free (for a year as of this writing), and your card will not be charged. You might have to wait up to 24 hours for the account to be activated, but in my case it was ready in about ten minutes.
+          Once you’ve successfully gotten to the Cloud9 administrative page (Figure 1.2), keep clicking on “Create environment” until you find yourself on a page that looks like Figure 1.3. Enter the information as shown there, then keep clicking the confirmation buttons until Cloud9 starts provisioning the IDE (Figure 1.4). You may run into a warning message about being a “root” user, which you can safely ignore at this early stage. (We’ll discuss the preferred but more complicated practice, called an Identity and Access Management (IAM) user, in Section 13.4.4.)
+          images/figures/cloud9_page_aws
+          Figure 1.2: The administrative page for Cloud9.
+          images/figures/cloud9_name_environment
+          Figure 1.3: Creating a new work environment at AWS Cloud9.
+          images/figures/cloud9_ide_aws
+          Figure 1.4: The default cloud IDE.
+          Because using two spaces for indentation is a near-universal convention in Ruby, I also recommend changing the editor to use two spaces instead of the default four. As shown in Figure 1.5, you can do this by clicking the gear icon in the upper right and then changing the “Soft Tabs” setting to 2. (Note that this takes effect immediately; you don’t need to click a “Save” button.)
+          
+          images/figures/cloud9_two_spaces_aws
+          Figure 1.5: Setting Cloud9 to use two spaces for indentation.
+          Cloud IDE users will also want to take care to follow the Bitbucket (Section 1.4.3) and Heroku installation instructions (Section 1.5.1), which have changed since the time when Cloud9 was a standalone service.
+          
+          Finally, advanced users who elect to follow the testing setup in Section 3.6 should also note that additional configuration may be necessary on the cloud IDE. See Section 3.6.2 for details.
+          
+          1.2.2Installing Rails
+          The development environment from Section 1.2.1 includes all the software we need to get started except for Rails itself. First, we’ll do a little preparation by adding configuration settings to prevent the time-consuming installation of local Ruby documentation, which needs to be done only once per system (definitely don’t worry about trying to understand this command):10
+          
+          $ printf "install: --no-rdoc --no-ri\nupdate:  --no-rdoc --no-ri\n" >> ~/.gemrc
+          To install Rails, we’ll use the gem command provided by the RubyGems package manager, which involves typing the command shown in Listing 1.1 into your command-line terminal. (If developing on your local system, this means using a regular terminal window; if using the cloud IDE, this means using the command-line area shown in Figure 1.1.)
+          
+          Listing 1.1: Installing Rails with a specific version number.
+          $ gem install rails -v 5.1.6
+          Here the -v flag ensures that the specified version of Rails gets installed, which is important for getting results consistent with this tutorial.
+          
+          1.3The first application
+          Following a long tradition in computer programming, our goal for the first application is to write a “hello, world” program. In particular, we will create a simple application that displays the string “hello, world!” on a web page, both on our development environment (Section 1.3.4) and on the live web (Section 1.5).
+          
+          Virtually all Rails applications start the same way, by running the rails new command. This handy command creates a skeleton Rails application in a directory of your choice. To get started, users not using the Cloud9 IDE recommended in Section 1.2.1 should make a environment directory for your Rails projects if it doesn’t already exist (Listing 1.2) and then change into the directory. (Listing 1.2 uses the Unix commands cd and mkdir; see Box 1.3 if you are not already familiar with these commands.)
+          
+          Listing 1.2: Making an environment directory for Rails projects (unnecessary in the cloud).
+          $ cd                  # Change to the home directory.
+          $ mkdir environment     # Make a environment directory.
+          $ cd environment/       # Change into the environment directory.
+          Box 1.3. A crash course on the Unix command line
+          For readers coming from Windows or (to a lesser but still significant extent) macOS, the Unix command line may be unfamiliar. Luckily, if you are using the recommended cloud environment, you automatically have access to a Unix (Linux) command line running a standard shell command-line interface known as Bash.
+          
+          The basic idea of the command line is simple: by issuing short commands, users can perform a large number of operations, such as creating directories (mkdir), moving and copying files (mv and cp), and navigating the filesystem by changing directories (cd). Although the command line may seem primitive to users mainly familiar with graphical user interfaces (GUIs), appearances are deceiving: the command line is one of the most powerful tools in the developer’s toolbox. Indeed, you will rarely see the desktop of an experienced developer without several open terminal windows running command-line shells.
+          
+          The general subject is deep, but for the purposes of this tutorial we will need only a few of the most common Unix command-line commands, as summarized in Table 1.1. For a more thorough introduction to the Unix command line, see the first of the Learn Enough tutorials, Learn Enough Command Line to Be Dangerous.11
+          
+          Description	Command	Example
+          list contents	ls	$ ls -l
+          make directory	mkdir <dirname>	$ mkdir environment
+          change directory	cd <dirname>	$ cd environment/
+          cd one directory up		$ cd ..
+          cd to home directory		$ cd ~ or just $ cd
+          cd to path incl. home dir		$ cd ~/environment/
+          move file (rename)	mv <source> <target>	$ mv foo bar
+          copy file	cp <source> <target>	$ cp foo bar
+          remove file	rm <file>	$ rm foo
+          remove empty directory	rmdir <directory>	$ rmdir environment/
+          remove nonempty directory	rm -rf <directory>	$ rm -rf tmp/
+          concatenate & display file contents	cat <file>	$ cat ~/.ssh/id_rsa.pub
+          Table 1.1: Some common Unix commands.
+          The next step on both local systems and the cloud IDE is to create the first application using the command in Listing 1.3. Note that Listing 1.3 explicitly includes the Rails version number as part of the command. This ensures that the same version of Rails we installed in Listing 1.1 is used to create the first application’s file structure. (If the command in Listing 1.3 returns an error like “Could not find 'railties'”, it means you don’t have the right version of Rails installed, and you should double-check that you followed the command in Listing 1.1 exactly as written.)
+          
+          Listing 1.3: Running rails new (with a specific version number).
+          $ cd ~/environment
+          $ rails _5.1.6_ new hello_app
+                create
+                create  README.md
+                create  Rakefile
+                create  config.ru
+                create  .gitignore
+                create  Gemfile
+                create  app
+                create  app/assets/config/manifest.js
+                create  app/assets/javascripts/application.js
+                create  app/assets/javascripts/cable.js
+                create  app/assets/stylesheets/application.css
+                create  app/channels/application_cable/channel.rb
+                create  app/channels/application_cable/connection.rb
+                create  app/controllers/application_controller.rb
+                .
+                .
+                .
+                create  tmp/cache/assets
+                create  vendor/assets/javascripts
+                create  vendor/assets/javascripts/.keep
+                create  vendor/assets/stylesheets
+                create  vendor/assets/stylesheets/.keep
+                remove  config/initializers/cors.rb
+                   run  bundle install
+          Fetching gem metadata from https://rubygems.org/..........
+          Fetching additional metadata from https://rubygems.org/..
+          Resolving dependencies...
+          Installing rake 11.1.2
+          Using concurrent-ruby 1.0.2
+          .
+          .
+          .
+          Your bundle is complete!
+          Use `bundle show [gemname]` to see where a bundled gem is installed.
+                   run  bundle exec spring binstub --all
+          * bin/rake: spring inserted
+          * bin/rails: spring inserted
+          As seen at the end of Listing 1.3, running rails new automatically runs the bundle install command after the file creation is done. We’ll discuss what this means in more detail starting in Section 1.3.1.
+          
+          Notice how many files and directories the rails command creates. This standard directory and file structure (Figure 1.6) is one of the many advantages of Rails: it immediately gets you from zero to a functional (if minimal) application. Moreover, since the structure is common to all Rails apps, you can immediately get your bearings when looking at someone else’s code.
+          
+          A summary of the default Rails files appears in Table 1.2. We’ll learn about most of these files and directories throughout the rest of this book. In particular, starting in Section 5.2.1 we’ll discuss the app/assets directory, part of the asset pipeline that makes it easy to organize and deploy assets such as cascading style sheets and JavaScript files.
+          
+          images/figures/directory_structure_rails_4th_edition
+          Figure 1.6: The directory structure for a newly created Rails app.
+          File/Directory	Purpose
+          app/	Core application (app) code, including models, views, controllers, and helpers
+          app/assets	Applications assets such as cascading style sheets (CSS), JavaScript files, and images
+          bin/	Binary executable files
+          config/	Application configuration
+          db/	Database files
+          doc/	Documentation for the application
+          lib/	Library modules
+          lib/assets	Library assets such as cascading style sheets (CSS), JavaScript files, and images
+          log/	Application log files
+          public/	Data accessible to the public (e.g., via web browsers), such as error pages
+          bin/rails	A program for generating code, opening console sessions, or starting a local server
+          test/	Application tests
+          tmp/	Temporary files
+          vendor/	Third-party code such as plugins and gems
+          vendor/assets	Third-party assets such as cascading style sheets (CSS), JavaScript files, and images
+          README.md	A brief description of the application
+          Rakefile	Utility tasks available via the rake command
+          Gemfile	Gem requirements for this app
+          Gemfile.lock	A list of gems used to ensure that all copies of the app use the same gem versions
+          config.ru	A configuration file for Rack middleware
+          .gitignore	Patterns for files that should be ignored by Git
+          Table 1.2: A summary of the default Rails directory structure.
+          1.3.1Bundler
+          After creating a new Rails application, the next step is to use Bundler to install and include the gems needed by the app. As noted briefly in Section 1.3, Bundler is run automatically (via bundle install) by the rails command, but in this section we’ll make some changes to the default application gems and run Bundler again. This involves opening the Gemfile with a text editor. (With the cloud IDE, this involves clicking the arrow in the file navigator to open the sample app directory and double-clicking the Gemfile icon.) Although the exact version numbers and details may differ slightly, the results should look something like Figure 1.7 and Listing 1.4. (The code in this file is Ruby, but don’t worry at this point about the syntax; Chapter 4 will cover Ruby in more depth.) If the files and directories don’t appear as shown in Figure 1.7, click on the file navigator’s gear icon and select “Refresh File Tree”. (As a general rule, you should refresh the file tree any time files or directories don’t appear as expected.)12
+          
+          images/figures/cloud9_gemfile_aws
+          Figure 1.7: The default Gemfile open in a text editor.
+          Listing 1.4: The default Gemfile in the hello_app directory.
+          source 'https://rubygems.org'
+          
+          git_source(:github) do |repo_name|
+            repo_name = "#{repo_name}/#{repo_name}" unless repo_name.include?("/")
+            "https://github.com/#{repo_name}.git"
+          end
+          
+          
+          # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
+          gem 'rails', '~> 5.1.6'
+          # Use sqlite3 as the database for Active Record
+          gem 'sqlite3'
+          # Use Puma as the app server
+          gem 'puma', '~> 3.7'
+          # Use SCSS for stylesheets
+          gem 'sass-rails', '~> 5.0'
+          # Use Uglifier as compressor for JavaScript assets
+          gem 'uglifier', '>= 1.3.0'
+          # See https://github.com/rails/execjs#readme for more supported runtimes
+          # gem 'therubyracer', platforms: :ruby
+          
+          # Use CoffeeScript for .coffee assets and views
+          gem 'coffee-rails', '~> 4.2'
+          # Turbolinks makes navigating your web application faster.
+          # Read more: https://github.com/turbolinks/turbolinks
+          gem 'turbolinks', '~> 5'
+          # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
+          gem 'jbuilder', '~> 2.5'
+          # Use Redis adapter to run Action Cable in production
+          # gem 'redis', '~> 3.0'
+          # Use ActiveModel has_secure_password
+          # gem 'bcrypt', '~> 3.1.7'
+          
+          # Use Capistrano for deployment
+          # gem 'capistrano-rails', group: :development
+          
+          group :development, :test do
+            # Call 'byebug' anywhere in the code to stop execution and get a debugger console
+            gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
+            # Adds support for Capybara system testing and selenium driver
+            gem 'capybara', '~> 2.13'
+            gem 'selenium-webdriver'
+          end
+          
+          group :development do
+            # Access an IRB console on exception pages or by using <%= console %>
+            # anywhere in the code.
+            gem 'web-console', '>= 3.3.0'
+            gem 'listen', '>= 3.0.5', '< 3.2'
+            # Spring speeds up development by keeping your application running
+            # in the background. Read more: https://github.com/rails/spring
+            gem 'spring'
+            gem 'spring-watcher-listen', '~> 2.0.0'
+          end
+          
+          # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
+          gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+          Many of these lines are commented out with the hash symbol # (Section 4.2.1); they are there to show you some commonly needed gems and to give examples of the Bundler syntax. For now, we won’t need any gems other than the defaults.
+          
+          Unless you specify a version number to the gem command, Bundler will automatically install the latest requested version of the gem. This is the case, for example, in the code
+          
+          gem 'sqlite3'
+          There are also two common ways to specify a gem version range, which allows us to exert some control over the version used by Rails. The first looks like this:
+          
+          gem 'uglifier', '>= 1.3.0'
+          This installs the latest version of the uglifier gem (which handles file compression for the asset pipeline) as long as it’s greater than or equal to version 1.3.0—even if it’s, say, version 7.2. The second method looks like this:
+          
+          gem 'coffee-rails', '~> 4.0.0'
+          This installs the gem coffee-rails as long as it’s version 4.0.0 or newer but not 4.1 or newer. In other words, the >= notation always installs the latest gem, whereas the ~> 4.0.0 notation will install 4.0.1 (if available) but not 4.1.0.13 Unfortunately, experience shows that even minor point releases can break the application, so for the Ruby on Rails Tutorial we’ll err on the side of caution by including exact version numbers for all gems. You are welcome to use the most up-to-date version of any gem, including using the ~> construction in the Gemfile (which I generally recommend for more advanced users), but be warned that this may cause the tutorial to act unpredictably.
+          
+          Converting the Gemfile in Listing 1.4 to use exact gem versions results in the code shown in Listing 1.5. (You can determine the exact version number for each gem by running gem list <gem name> at the command line, but Listing 1.5 saves you the trouble.) Note that we’ve also taken this opportunity to arrange for the sqlite3 gem to be included only in a development or test environment (Section 7.1.1), which prevents potential conflicts with the database used by Heroku (Section 1.5). Important note: For all the Gemfiles in this book, you should use the version numbers listed at gemfiles-4th-ed.railstutorial.org instead of the ones listed below (although they should be identical if you are reading this online).
+          
+          Listing 1.5: A Gemfile with an explicit version for each Ruby gem.
+          source 'https://rubygems.org'
+          
+          gem 'rails',        '5.1.6'
+          gem 'puma',         '3.9.1'
+          gem 'sass-rails',   '5.0.6'
+          gem 'uglifier',     '3.2.0'
+          gem 'coffee-rails', '4.2.2'
+          gem 'jquery-rails', '4.3.1'
+          gem 'turbolinks',   '5.0.1'
+          gem 'jbuilder',     '2.7.0'
+          
+          group :development, :test do
+            gem 'sqlite3', '1.3.13'
+            gem 'byebug',  '9.0.6', platform: :mri
+          end
+          
+          group :development do
+            gem 'web-console',           '3.5.1'
+            gem 'listen',                '3.1.5'
+            gem 'spring',                '2.0.2'
+            gem 'spring-watcher-listen', '2.0.1'
+          end
+          
+          # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
+          gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+          Once you’ve placed the contents of Listing 1.5 into the application’s Gemfile, install the gems using bundle install:14
+          
+          $ cd hello_app/
+          $ bundle install
+          Fetching source index for https://rubygems.org/
+          .
+          .
+          .
+          The bundle install command might take a few moments, but when it’s done our application will be ready to run.
+          
+          By the way, when you run bundle install it’s possible that you’ll get a message saying you need to run bundle update first. In this case you should… run bundle update first. (Learning not to panic when things don’t go exactly as planned is a key part of technical sophistication, and you’ll be amazed at how often the “error” message contains the exact instructions you need to fix the problem at hand.)
+          
+          1.3.2rails server
+          Thanks to running rails new in Section 1.3 and bundle install in Section 1.3.1, we already have an application we can run—but how? Happily, Rails comes with a command-line program, or script, that runs a local webserver to assist us in developing our application: rails server (Listing 1.6).
+          
+          Listing 1.6: Running the Rails server.
+          $ cd ~/environment/hello_app/
+          $ rails server
+          => Booting Puma
+          => Rails application starting on http://localhost:3000
+          => Run `rails server -h` for more startup options
+          => Ctrl-C to shutdown server
+          If your system complains about the lack of a JavaScript runtime, visit the execjs page at GitHub for a list of possibilities. I particularly recommend installing Node.js.
+          
+          I recommend running the rails server command in a second terminal tab so that you can still issue commands in the first tab, as shown in Figure 1.8 and Figure 1.9. (If you already started a server in your first tab, press Ctrl-C to shut it down.)15 On a local server, paste the URL http://localhost:3000 into the address bar of your browser; on the cloud IDE, go to Preview and click on Preview Running Application (Figure 1.10), and then open it in a full browser window or tab (Figure 1.11). In either case, the result should look something like Figure 1.12.
+          
+          images/figures/new_terminal_tab_aws
+          Figure 1.8: Opening a new terminal tab.
+          images/figures/rails_server_new_tab_aws
+          Figure 1.9: Running the Rails server in a separate tab.
+          images/figures/share_workspace_aws
+          Figure 1.10: Sharing the local server running on the cloud workspace.
+          images/figures/full_browser_window_aws
+          Figure 1.11: Opening the running app in a full browser window or tab.
+          images/figures/riding_rails_4th_edition_aws
+          Figure 1.12: The default Rails page served by rails server.
+          Exercises
+          According to the default Rails page, what is the version of Ruby on your system? Confirm by running ruby -v at the command line.
+          What is the version of Rails? Confirm that it matches the version installed in Listing 1.1.
+          1.3.3Model-View-Controller (MVC)
+          Even at this early stage, it’s helpful to get a high-level overview of how Rails applications work, as illustrated in Figure 1.13. You might have noticed that the standard Rails application structure (Figure 1.6) has an application directory called app/, which includes subdirectories called models, views, and controllers (among others). This is a hint that Rails follows the model-view-controller (MVC) architectural pattern, which enforces a separation between the data in the application (such as user information) and the code used to display it, which is a common way of structuring a graphical user interface (GUI).
+          
+          When interacting with a Rails application, a browser sends a request, which is received by a webserver and passed on to a Rails controller, which is in charge of what to do next. In some cases, the controller will immediately render a view, which is a template that gets converted to HTML and sent back to the browser. More commonly for dynamic sites, the controller interacts with a model, which is a Ruby object that represents an element of the site (such as a user) and is in charge of communicating with the database. After invoking the model, the controller then renders the view and returns the complete web page to the browser as HTML.
+          
+          mvc_schematic
+          Figure 1.13: A schematic representation of the model-view-controller (MVC) architecture.
+          If this discussion seems a bit abstract right now, don’t worry; we’ll cover these ideas in more detail later in this book. In particular, Section 1.3.4 shows a first tentative application of MVC, while Section 2.2.2 includes a more detailed discussion of MVC in the context of the toy app. Finally, the full sample app will use all aspects of MVC: we’ll cover controllers and views starting in Section 3.2, models starting in Section 6.1, and we’ll see all three working together in Section 7.1.2.
+          
+          1.3.4Hello, world!
+          As a first application of the MVC framework, we’ll make a wafer-thin change to the first app by adding a controller action to render the string “hello, world!” to replace the default Rails page from Figure 1.12. (We’ll learn more about controller actions starting in Section 2.2.2.)
+          
+          As implied by their name, controller actions are defined inside controllers. We’ll call our action hello and place it in the Application controller. Indeed, at this point the Application controller is the only controller we have, which you can verify by running
+          
+          $ ls app/controllers/*_controller.rb
+          to view the current controllers. (We’ll start creating our own controllers in Chapter 2.) Listing 1.7 shows the resulting definition of hello, which uses the render function to return the HTML text “hello, world!”. (Don’t worry about the Ruby syntax right now; it will be covered in more depth in Chapter 4.)
+          
+          Listing 1.7: Adding a hello action to the Application controller.
+          app/controllers/application_controller.rb
+          class ApplicationController < ActionController::Base
+            protect_from_forgery with: :exception
+          
+            def hello
+              render html: "hello, world!"
+            end
+          end
+          Having defined an action that returns the desired string, we need to tell Rails to use that action instead of the default page in Figure 1.12. To do this, we’ll edit the Rails router, which sits in front of the controller in Figure 1.13 and determines where to send requests that come in from the browser. (I’ve omitted the router from Figure 1.13 for simplicity, but we’ll discuss it in more detail starting in Section 2.2.2.) In particular, we want to change the default page, the root route, which determines the page that is served on the root URL. Because it’s the URL for an address like http://www.example.com/ (where nothing comes after the final forward slash), the root URL is often referred to as / (“slash”) for short.
+          
+          As seen in Listing 1.8, the Rails routes file (config/routes.rb) includes a comment directing us to the Rails Guide on Routing, which includes instructions on how to define the root route. The syntax looks like this:
+          
+          root 'controller_name#action_name'
+          In the present case, the controller name is application and the action name is hello, which results in the code shown in Listing 1.9.
+          
+          Listing 1.8: The default routing file (formatted to fit).
+          config/routes.rb
+          Rails.application.routes.draw do
+            # For details on the DSL available within this file,
+            # see http://guides.rubyonrails.org/routing.html
+          end
+          Listing 1.9: Setting the root route.
+          config/routes.rb
+          Rails.application.routes.draw do
+            root 'application#hello'
+          end
+          With the code from Listing 1.7 and Listing 1.9, the root route returns “hello, world!” as required (Figure 1.14).16 Hello, world!
+          
+          images/figures/hello_world_hello_app
+          Figure 1.14: Viewing “hello, world!” in the browser.
+          Exercises
+          Change the content of the hello action in Listing 1.7 to read “hola, mundo!” instead of “hello, world!”.
+          Show that Rails supports non-ASCII characters by including an inverted exclamation point, as in “¡Hola, mundo!” (Figure 1.15).17 To get a ¡ character on a Mac, you can use Option-1; otherwise, you can always copy-and-paste the character into your editor.
+          By following the example of the hello action in Listing 1.7, add a second action called goodbye that renders the text “goodbye, world!”. Edit the routes file from Listing 1.9 so that the root route goes to goodbye instead of to hello (Figure 1.16).
+          images/figures/hola_mundo
+          Figure 1.15: Changing the root route to return “¡Hola, mundo!”.
+          images/figures/goodbye_world
+          Figure 1.16: Changing the root route to return “goodbye, world!”.
+          1.4Version control with Git
+          Now that we have a working “hello, world” application, we’ll take a moment for a step that, while technically optional, would be viewed by experienced software developers as practically essential: placing our application source code under version control. Version control systems allow us to track changes to our project’s code, collaborate more easily, and roll back any inadvertent errors (such as accidentally deleting files). Knowing how to use a version control system is a required skill for every professional-grade software developer.
+          
+          There are many options for version control, but the Rails community has largely standardized on Git, a distributed version control system originally developed by Linus Torvalds to host the Linux kernel. Git is a large subject, and we’ll only be scratching the surface in this book; for a more thorough introduction, see Learn Enough Git to Be Dangerous.18
+          
+          Putting your source code under version control with Git is strongly recommended, not only because it’s nearly a universal practice in the Rails world, but also because it will allow you to back up and share your code more easily (Section 1.4.3) and deploy your application right here in the first chapter (Section 1.5).
+          
+          1.4.1Installation and setup
+          The cloud IDE recommended in Section 1.2.1 includes Git by default, so no installation is necessary in this case. Otherwise, Learn Enough Git to Be Dangerous includes instructions for installing Git on your system.
+          
+          First-time system setup
+          Before using Git, you should perform a couple of one-time setup steps. These are system setups, meaning you only have to do them once per computer:
+          
+          $ git config --global user.name "Your Name"
+          $ git config --global user.email your.email@example.com
+          Note that the name and email address you use in your Git configuration will be available in any repositories you make public.
+          
+          First-time repository setup
+          Now we come to some steps that are necessary each time you create a new repository (sometimes called a repo for short). The first step is to navigate to the root directory of the first app and initialize a new repository:
+          
+          $ git init
+          Initialized empty Git repository in
+          /home/ec2-user/environment/environment/hello_app/.git/
+          The next step is to add all the project files to the repository using git add -A:
+          
+          $ git add -A
+          This command adds all the files in the current directory apart from those that match the patterns in a special file called .gitignore. The rails new command automatically generates a .gitignore file appropriate to a Rails project, but you can add additional patterns as well.19
+          
+          The added files are initially placed in a staging area, which contains pending changes to our project. We can see which files are in the staging area using the status command:
+          
+          $ git status
+          On branch master
+          
+          Initial commit
+          
+          Changes to be committed:
+            (use "git rm --cached <file>..." to unstage)
+          
+            new file:   .gitignore
+            new file:   Gemfile
+            new file:   Gemfile.lock
+            new file:   README.md
+            new file:   Rakefile
+            .
+            .
+            .
+          To tell Git we want to keep the changes, we use the commit command:
+          
+          $ git commit -m "Initialize repository"
+          [master (root-commit) df0a62f] Initialize repository
+          .
+          .
+          .
+          The -m flag lets us add a message for the commit; if we omit -m, Git will open the system’s default editor and have us enter the message there. (All the examples in this book will use the -m flag.)
+          
+          It is important to note that Git commits are local, recorded only on the machine on which the commits occur. We’ll see how to push the changes up to a remote repository (using git push) in Section 1.4.4.
+          
+          By the way, we can see a list of the commit messages using the log command:
+          
+          $ git log
+          commit af72946fbebc15903b2770f92fae9081243dd1a1
+          Author: Michael Hartl <michael@michaelhartl.com>
+          Date:   Thu May 12 19:25:07 2016 +0000
+          
+              Initialize repository
+          Depending on the length of the repository’s log history, you may have to type q to quit. (As explained in Learn Enough Git to Be Dangerous, git log uses the less interface covered in Learn Enough Command Line to Be Dangerous.)
+          
+          1.4.2What good does Git do you?
+          If you’ve never used version control before, it may not be entirely clear at this point what good it does you, so let me give just one example. Suppose you’ve made some accidental changes, such as (D’oh!) deleting the critical app/controllers/ directory.
+          
+          $ ls app/controllers/
+          application_controller.rb  concerns/
+          $ rm -rf app/controllers/
+          $ ls app/controllers/
+          ls: app/controllers/: No such file or directory
+          Here we’re using the Unix ls command to list the contents of the app/controllers/ directory and the rm command to remove it (Table 1.1). As noted in Learn Enough Command Line to Be Dangerous, the -rf flag means “recursive force”, which recursively removes all files, directories, subdirectories, and so on, without asking for explicit confirmation of each deletion.
+          
+          Let’s check the status to see what changed:
+          
+          $ git status
+          On branch master
+          Changed but not updated:
+            (use "git add/rm <file>..." to update what will be committed)
+            (use "git checkout -- <file>..." to discard changes in working directory)
+          
+                deleted:    app/controllers/application_controller.rb
+          
+          no changes added to commit (use "git add" and/or "git commit -a")
+          We see here that a file has been deleted, but the changes are only on the “working tree”; they haven’t been committed yet. This means we can still undo the changes using the checkout command with the -f flag to force overwriting the current changes:
+          
+          $ git checkout -f
+          $ git status
+          # On branch master
+          nothing to commit (working directory clean)
+          $ ls app/controllers/
+          application_controller.rb  concerns/
+          The missing files and directories are back. That’s a relief!
+          
+          1.4.3Bitbucket
+          Now that we’ve put our project under version control with Git, it’s time to push our code up to Bitbucket, a site optimized for hosting and sharing Git repositories. (Learn Enough Git to Be Dangerous uses GitHub, but see Box 1.4 to learn the reasons why this tutorial uses Bitbucket instead.) Putting a copy of your Git repository at Bitbucket serves two purposes: it’s a full backup of your code (including the full history of commits), and it makes any future collaboration much easier.
+          
+          Box 1.4. GitHub and Bitbucket
+          By far the two most popular sites for hosting Git repositories are GitHub and Bitbucket. The two services share many similarities: both sites allow for Git repository hosting and collaboration, as well as offering convenient ways to browse and search repositories. The important differences (from the perspective of this tutorial) are that GitHub offers unlimited free repositories (with collaboration) for open-source repositories while charging for private repos, whereas Bitbucket allows unlimited free private repos while charging for more than a certain number of collaborators. Which service you use for a particular repo thus depends on your specific needs.
+          
+          Learn Enough Git to Be Dangerous (and some previous editions of this tutorial) use GitHub because of its emphasis on supporting open-source code, but growing concerns about security have led me to recommend that all web application repositories be private by default. The issue is that such repositories might contain potentially sensitive information such as cryptographic keys or passwords, which could be used to compromise the security of a site running the code. It is possible, of course, to arrange for this information to be handled securely (by having Git ignore it, for example), but this is error-prone and requires significant expertise.
+          
+          As it happens, the sample application created in this tutorial is safe for exposure on the web, but it is dangerous to rely on this fact in general. Thus, to be as secure as possible, we will err on the side of caution and use private repositories by default. Since GitHub charges for private repositories while Bitbucket offers an unlimited number for free, for our present purposes Bitbucket is a better fit than GitHub.
+          
+          (By the way, recently a third major Git hosting company has emerged, called GitLab. Originally designed principally as an open-source Git tool you hosted yourself, GitLab now offers a hosted version as well, and in fact allows for unlimited public and private repositories. This makes GitLab an excellent alternative to GitHub or Bitbucket for future projects.)
+          
+          UPDATE: GitHub announced in early 2019 that it will be offering unlimited free private repositories (with a limit only on the number of collaborators). Future editions of this tutorial may switch back to GitHub as a result.
+          
+          Getting started with Bitbucket is straightforward, though it may take a little technical sophistication (Box 1.1) to get everything to work just right:
+          
+          Sign up for a Bitbucket account if you don’t already have one.
+          Copy your public key to your clipboard. As indicated in Listing 1.10, users of the cloud IDE might be able to view their public key using the cat command, which can then be selected and copied. If you see no output or get an error on this step, follow the instructions on how to install a public key on your Bitbucket account, and then re-run the command in Listing 1.10.
+          Add your public key to Bitbucket by clicking on the avatar image in the upper right and selecting “Bitbucket settings” and then “SSH keys” (Figure 1.17).
+          Listing 1.10: Printing the public key using cat.
+          $ cat ~/.ssh/id_rsa.pub
+          images/figures/add_public_key
+          Figure 1.17: Adding the SSH public key.
+          Once you’ve added your public key, click on “Create” to create a new repository, as shown in Figure 1.18. When filling in the information for the project, take care to leave the box next to “This is a private repository.” checked. (If there’s an option to create a README file, select “No”. ) After clicking “Create repository”, follow the instructions for connecting your existing repository to Bitbucket (Figure 1.19), which has code like that shown in Listing 1.11. (If it doesn’t look like Listing 1.11, it might be because the public key didn’t get added correctly, in which case I suggest trying that step again.) When pushing up the repository, answer yes if you see the question “Are you sure you want to continue connecting (yes/no)?”
+          
+          images/figures/create_first_repository_bitbucket_4th_ed
+          Figure 1.18: Creating the first app repository at Bitbucket.
+          images/figures/add_repository
+          Figure 1.19: Code for adding an existing repository.
+          Listing 1.11: Adding Bitbucket and pushing up the repository.
+          $ git remote add origin git@bitbucket.org:<username>/hello_app.git
+          $ git push -u origin master
+          The commands in Listing 1.11 first tell Git that you want to add Bitbucket as the origin for your repository, and then push your repository up to the remote origin. (Don’t worry about what the -u flag does; if you’re curious, do a web search for “git set upstream”.) Of course, you should replace <username> with your actual username. For example, the command I ran was
+          
+          $ git remote add origin git@bitbucket.org:railstutorial/hello_app.git
+          The result is a page at Bitbucket for the hello_app repository, with file browsing, full commit history, and lots of other goodies (Figure 1.20).20
+          
+          images/figures/bitbucket_repository_page_4th_ed
+          Figure 1.20: A Bitbucket repository page.
+          1.4.4Branch, edit, commit, merge
+          If you’ve followed the steps in Section 1.4.3, you might notice that Bitbucket automatically rendered the repository’s README file, as shown in Figure 1.20. This file, called README.md, was generated automatically by the command in Listing 1.3. As indicated by the filename extension .md, it is written in Markdown,21 a human-readable markup language designed to be easy to convert to HTML—which is exactly what Bitbucket has done.
+          
+          This automatic rendering of the README is convenient, but of course it would be better if we tailored the contents of the file to the project at hand. In this section, we’ll customize the README by adding some Rails Tutorial–specific content. In the process, we’ll see a first example of the branch, edit, commit, merge workflow that I recommend using with Git.22
+          
+          images/figures/bitbucket_default_readme
+          Figure 1.21: Bitbucket’s rendering of the default Rails README.
+          Branch
+          Git is incredibly good at making branches, which are effectively copies of a repository where we can make (possibly experimental) changes without modifying the parent files. In most cases, the parent repository is the master branch, and we can create a new topic branch by using checkout with the -b flag:
+          
+          $ git checkout -b modify-README
+          Switched to a new branch 'modify-README'
+          $ git branch
+            master
+          * modify-README
+          Here the second command, git branch, just lists all the local branches, and the asterisk * identifies which branch we’re currently on. Note that git checkout -b modify-README both creates a new branch and switches to it, as indicated by the asterisk in front of the modify-README branch.
+          
+          The full value of branching only becomes clear when working on a project with multiple developers,23 but branches are helpful even for a single-developer tutorial such as this one. In particular, because the master branch is insulated from any changes we make to the topic branch, even if we really mess things up we can always abandon the changes by checking out the master branch and deleting the topic branch. We’ll see how to do this at the end of the section.
+          
+          By the way, for a change as small as this one I wouldn’t normally bother with a new branch (opting instead to work directly on the master branch), but in the present context it’s a prime opportunity to start practicing good habits.
+          
+          Edit
+          After creating the topic branch, we’ll edit the README to add custom content, as shown in Listing 1.12.
+          
+          Listing 1.12: The new README file.
+          README.md
+          # Ruby on Rails Tutorial
+          
+          ## "hello, world!"
+          
+          This is the first application for the
+          [*Ruby on Rails Tutorial*](https://www.railstutorial.org/)
+          by [Michael Hartl](https://www.michaelhartl.com/). Hello, world!
+          Commit
+          With the changes made, we can take a look at the status of our branch:
+          
+          $ git status
+          On branch modify-README
+          Changes not staged for commit:
+            (use "git add <file>..." to update what will be committed)
+            (use "git checkout -- <file>..." to discard changes in working directory)
+          
+                  modified:   README.md
+          
+          no changes added to commit (use "git add" and/or "git commit -a")
+          At this point, we could use git add -A as in Section 1.4.1.2, but git commit provides the -a flag as a shortcut for the (very common) case of committing all modifications to existing files:
+          
+          $ git commit -a -m "Improve the README file"
+          [modify-README 9dc4f64] Improve the README file
+           1 file changed, 5 insertions(+), 22 deletions(-)
+          Be careful about using the -a flag improperly; if you have added any new files to the project since the last commit, you still have to tell Git about them using git add -A first.
+          
+          Note that we write the commit message in the present tense (and, technically speaking, the imperative mood). Git models commits as a series of patches, and in this context it makes sense to describe what each commit does, rather than what it did. Moreover, this usage matches up with the commit messages generated by Git commands themselves. See Committing to Git from Learn Enough Git to Be Dangerous for more information.
+          
+          Merge
+          Now that we’ve finished making our changes, we’re ready to merge the results back into our master branch:
+          
+          $ git checkout master
+          Switched to branch 'master'
+          $ git merge modify-README
+          Updating af72946..9dc4f64
+          Fast-forward
+           README.md | 27 +++++----------------------
+           1 file changed, 5 insertions(+), 22 deletions(-)
+          Note that the Git output frequently includes things like 34f06b7, which are related to Git’s internal representation of repositories. Your exact results will differ in these details, but otherwise should essentially match the output shown above.
+          
+          After you’ve merged in the changes, you can tidy up your branches by deleting the topic branch using git branch -d if you’re done with it:
+          
+          $ git branch -d modify-README
+          Deleted branch modify-README (was 9dc4f64).
+          This step is optional, and in fact it’s quite common to leave the topic branch intact. This way you can switch back and forth between the topic and master branches, merging in changes every time you reach a natural stopping point.
+          
+          As mentioned above, it’s also possible to abandon your topic branch changes, in this case with git branch -D:
+          
+          # For illustration only; don't do this unless you mess up a branch
+          $ git checkout -b topic-branch
+          $ <really mess up the branch>
+          $ git add -A
+          $ git commit -a -m "Make major mistake"
+          $ git checkout master
+          $ git branch -D topic-branch
+          Unlike the -d flag, the -D flag will delete the branch even though we haven’t merged in the changes.
+          
+          Push
+          Now that we’ve updated the README, we can push the changes up to Bitbucket to see the result. Since we have already done one push (Section 1.4.3), on most systems we can omit origin master, and simply run git push:
+          
+          $ git push
+          As with the default README, Bitbucket nicely converts the Markdown in our updated README to HTML (Figure 1.22).
+          
+          images/figures/new_readme_bitbucket_4th_ed
+          Figure 1.22: The improved README file at Bitbucket.
+          1.5Deploying
+          Even though this is only the first chapter, we’re already going to deploy our (nearly empty) Rails application to production. This step is optional, but deploying early and often allows us to catch any deployment problems early in our development cycle. The alternative—deploying only after laborious effort sealed away in a development environment—often leads to terrible integration headaches when launch time comes.24
+          
+          Deploying Rails applications used to be a pain, but the Rails deployment ecosystem has matured rapidly in the past few years, and now there are several great options. These include shared hosts or virtual private servers running Phusion Passenger (a module for the Apache and Nginx25 webservers), full-service deployment companies such as Engine Yard and Rails Machine, and cloud deployment services such as Engine Yard Cloud and Heroku.
+          
+          My favorite Rails deployment option is Heroku, which is a hosted platform built specifically for deploying Rails and other web applications. Heroku makes deploying Rails applications ridiculously easy—as long as your source code is under version control with Git. (This is yet another reason to follow the Git setup steps in Section 1.4 if you haven’t already.) In addition, for many purposes, including for this tutorial, Heroku’s free tier is more than sufficient.
+          
+          The rest of this section is dedicated to deploying our first application to Heroku. Some of the ideas are fairly advanced, so don’t worry about understanding all the details; what’s important is that by the end of the process we’ll have deployed our application to the live web.
+          
+          1.5.1Heroku setup
+          Heroku uses the PostgreSQL database (pronounced “post-gres-cue-ell”, and often called “Postgres” for short), which means that we need to add the pg gem in the production environment to allow Rails to talk to Postgres:
+          
+          group :production do
+            gem 'pg', '0.20.0'
+          end
+          Also be sure to incorporate the changes made in Listing 1.5 preventing the sqlite3 gem from being included in a production environment, since the SQLite database isn’t supported at Heroku:26
+          
+          group :development, :test do
+            gem 'sqlite3', '1.3.13'
+            gem 'byebug',  '9.0.6', platform: :mri
+          end
+          The resulting Gemfile appears as in Listing 1.13.
+          
+          Listing 1.13: A Gemfile with added and rearranged gems.
+          source 'https://rubygems.org'
+          
+          gem 'rails',        '5.1.6'
+          gem 'puma',         '3.9.1'
+          gem 'sass-rails',   '5.0.6'
+          gem 'uglifier',     '3.2.0'
+          gem 'coffee-rails', '4.2.2'
+          gem 'jquery-rails', '4.3.1'
+          gem 'turbolinks',   '5.0.1'
+          gem 'jbuilder',     '2.7.0'
+          
+          group :development, :test do
+            gem 'sqlite3', '1.3.13'
+            gem 'byebug',  '9.0.6', platform: :mri
+          end
+          
+          group :development do
+            gem 'web-console',           '3.5.1'
+            gem 'listen',                '3.1.5'
+            gem 'spring',                '2.0.2'
+            gem 'spring-watcher-listen', '2.0.1'
+          end
+          
+          group :production do
+            gem 'pg', '0.20.0'
+          end
+          
+          # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
+          gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+          To prepare the system for deployment to production, we run bundle install with a special flag to prevent the local installation of any production gems (which in this case consists of the pg gem), as shown in Listing 1.14.
+          
+          Listing 1.14: Bundling without production gems.
+          $ bundle install --without production
+          Because the only gem added in Listing 1.13 is restricted to a production environment, right now the command in Listing 1.14 doesn’t actually install any additional local gems, but it’s needed to update Gemfile.lock with the pg gem. We can commit the resulting change as follows:
+          
+          $ git commit -a -m "Update Gemfile for Heroku"
+          Next we have to create and configure a new Heroku account. The first step is to sign up for Heroku. Then check to see if your system already has the Heroku command-line client installed:
+          
+          $ heroku --version
+          This will display the current version number if the heroku command-line interface (CLI) is available, but on most systems it will be necessary to install the Heroku CLI by hand.27 In particular, if you’re working on the cloud IDE, you can install Heroku using the command shown in Listing 1.15. (This command is rather advanced, so don’t worry about the details.)
+          
+          Listing 1.15: The command to install Heroku on the cloud IDE.
+          $ source <(curl -sL https://cdn.learnenough.com/heroku_install)
+          After running the command in Listing 1.15, you should now be able to verify the installation by displaying the current version number (details may vary):
+          
+          $ heroku --version
+          heroku-cli/6.15.5 (linux-x64) node-v9.2.1
+          Once you’ve verified that the Heroku command-line interface is installed, use the heroku command to log in and add your SSH key:
+          
+          $ heroku login
+          $ heroku keys:add
+          Finally, use the heroku create command to create a place on the Heroku servers for the sample app to live (Listing 1.16).
+          
+          Listing 1.16: Creating a new application at Heroku.
+          $ heroku create
+          Creating app... done, fathomless-beyond-39164
+          https://damp-fortress-5769.herokuapp.com/ |
+          https://git.heroku.com/damp-fortress-5769.git
+          The heroku command creates a new subdomain just for our application, available for immediate viewing. There’s nothing there yet, though, so let’s get busy deploying.
+          
+          1.5.2Heroku deployment, step one
+          To deploy the application, the first step is to use Git to push the master branch up to Heroku:
+          
+          $ git push -u heroku master
+          (You may see some warning messages, which you should ignore for now. We’ll discuss them further in Section 7.5.)
+          
+          Note: There have been reports of issues with Bundler version 2.0.1, so if you run into problems with deployment you might try this:
+          
+          $ gem install bundler -v 2.0.2
+          Then install and redeploy:
+          
+          $ bundle install
+          $ git commit -am "Update Bundler"
+          $ git push -u heroku master
+          1.5.3Heroku deployment, step two
+          There is no step two! We’re already done. To see your newly deployed application, visit the address that you saw when you ran heroku create (i.e., Listing 1.16). (If you’re working on your local machine instead of the cloud IDE, you can also use heroku open.) The result appears in Figure 1.23. The page is identical to Figure 1.14, but now it’s running in a production environment on the live web.
+          
+          images/figures/heroku_app_hello_world
+          Figure 1.23: The first Rails Tutorial application running on Heroku.
+          Exercises
+          By making the same change as in Section 1.3.4.1, arrange for your production app to display “hola, mundo!”.
+          As in Section 1.3.4.1, arrange for the root route to display the result of the goodbye action. When deploying, confirm that you can omit master in the Git push, as in git push heroku.
+          1.5.4Heroku commands
+          There are many Heroku commands, and we’ll barely scratch the surface in this book. Let’s take a minute to show just one of them by renaming the application as follows:
+          
+          $ heroku rename rails-tutorial-hello
+          Don’t use this name yourself; it’s already taken by me! In fact, you probably shouldn’t bother with this step right now; using the default address supplied by Heroku is fine. But if you do want to rename your application, you can arrange for it to be reasonably secure by using a random or obscure subdomain, such as the following:
+          
+          hwpcbmze.herokuapp.com
+          seyjhflo.herokuapp.com
+          jhyicevg.herokuapp.com
+          With a random subdomain like this, someone could visit your site only if you gave them the address.28 (By the way, as a preview of Ruby’s compact awesomeness, here’s the code I used to generate the random subdomains:
+          
+          ('a'..'z').to_a.shuffle[0..7].join
+          Pretty sweet.)29
+          
+          In addition to supporting subdomains, Heroku also supports custom domains. (In fact, the Ruby on Rails Tutorial site lives at Heroku; if you’re reading this book online, you’re looking at a Heroku-hosted site right now!) See the Heroku documentation for more information about custom domains and other Heroku topics.
+          
+          Exercises
+          Run heroku help to see a list of Heroku commands. What is the command to display logs for an app?
+          Use the command identified in the previous exercise to inspect the activity on your application. What was the most recent event? (This command is often useful when debugging production apps.)
+          1.6Conclusion
+          We’ve come a long way in this chapter: installation, development environment setup, version control, and deployment. In the next chapter, we’ll build on the foundation from Chapter 1 to make a database-backed toy app, which will give us our first real taste of what Rails can do.
+          
+          If you’d like to share your progress at this point, feel free to send a tweet or Facebook status update with something like this:
+          
+          I’m learning Ruby on Rails with the @railstutorial! https://www.railstutorial.org/
+          
+          I also recommend signing up for the Rails Tutorial email list30, which will ensure that you receive priority updates (and exclusive coupon codes) regarding the Ruby on Rails Tutorial.
+          
+          1.6.1What we learned in this chapter
+          Ruby on Rails is a web development framework written in the Ruby programming language.
+          Installing Rails, generating an application, and editing the resulting files is easy using a pre-configured cloud environment.
+          Rails comes with a command-line command called rails that can generate new applications (rails new) and run local servers (rails server).
+          We added a controller action and modified the root route to create a “hello, world” application.
+          We protected against data loss while enabling collaboration by placing our application source code under version control with Git and pushing the resulting code to a private repository at Bitbucket.
+          We deployed our application to a production environment using Heroku.
+          Join the Mailing List
+          Sign up for the Learn Enough mailing list to get notified when new tutorials are released, when new video guides are posted, and to receive special offers and discounts. We won't ever share your email with anyone.
+          
+          Email Address
+           SUBSCRIBE
+          LEARN ENOUGH: 
+          LEARN ENOUGH: 
+          RAILS TUTORIAL: 
+           LEARN ENOUGH
+          Courses
+          Pricing
+          Scholarship
+          For Teams
+          Log In
+          All Access
+          The Rails Tutorial
+          Our Philosophy
+          About
+          News
+          Why Use Ruby on Rails?
+          Why Use the Ruby Language?
+          Why Program?
+          Why Understand Devs?
+          For Beginners
+          Legal
+          Contact
+          
+          A QUICK GUIDE TO
+          Your Courses
+          WELCOME TO LEARN ENOUGH!
+          Yourcourses guide
+
+      </div>
+      <div class='col-lg-3 d-none d-lg-block'>
+        i am aside
+      </div>
+
+    </div>
+
+  </div>
+
+
+
+
+  <footer></footer>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+  <script src="js/scripts.js"></script>
+</body>
+
+</html>
