@@ -1,0 +1,38 @@
+nav {
+    font-size: 1.2em;
+    font-weight: 650;
+ 
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 15px;
+    
+    .fa-twitter {
+      color: white;
+      display: block;
+      padding: 8px;
+      margin-top: 10px;
+    }
+    svg {
+      color: white;
+
+    }
+    a {
+      color: #FFFDE7;
+      text-decoration: none;
+      i {
+        padding-right: 20px;
+      }
+    }
+    a:hover {
+      color: $signatureBlue;
+    }
+    .tweeterBtn {
+      margin: 9.5px;
+      padding: 12px 57px;
+      @include round-border;
+    }
+    @media screen and (max-width:991px) {
+      .menu-text {display: none}
+    }
+  }

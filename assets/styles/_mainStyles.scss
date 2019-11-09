@@ -1,0 +1,55 @@
+main {
+    border: 1px solid grey;
+  .first-part {
+    .home {
+      margin-right: 80%;
+      margin-left: 10px;
+      font-weight: bold;
+      font-size: 1.2em;
+      padding-top: 15px;
+      padding-bottom: 15px;
+    }
+    .fa-star {
+      color: rgb(50, 142, 241);
+      padding-top: 15px;
+      padding-bottom: 15px;
+    }
+  }
+  .whats-happening {
+    .post-blocks {
+      border: 1px solid palevioletred;
+      display: flex;
+      flex-direction: row;
+      textarea{
+        background-color: $darkThemeColor;
+        color: white;
+      }
+      .post-profile {
+        width: 10%;
+        border: 1px solid red;
+        margin: 0;
+        height: 100%;
+      }
+      .post-form {
+        width: 78%;
+        border: 1px solid chartreuse;
+        padding-top: 20px;
+        padding-left: 10px;
+      }
+      
+    }
+    .fontawesomes{
+        padding: 3% 0 3% 10%;
+        i{
+            padding-left: 10px;
+        }
+        span{
+            border-right: 1px solid grey;
+        }
+        .fa-smile{
+            padding-right: 110px;
+        }
+        
+    }
+  }
+}
