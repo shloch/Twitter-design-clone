@@ -1,105 +1,170 @@
 * {
   padding: 0;
-  margin: 0; }
+  margin: 0;
+}
 
 body {
-  background-color: #232525;
-  color: #EAE8D4; }
+  background-color: #151615;
+  color: #EAE8D4;
+}
 
 .container {
-  min-width: 100%; }
-  .container nav {
-    font-size: 1.2em;
-    font-weight: 650;
-    position: fixed;
-    /* Fixed Sidebar (stay in place on scroll) */
-    z-index: 1;
-    /* Stay on top */
-    top: 0;
-    /* Stay at the top */
-    left: 15px; }
-    .container nav .fa-twitter {
-      color: white;
-      display: block;
-      padding: 8px;
-      margin-top: 10px; }
-    .container nav svg {
-      color: white; }
-    .container nav a {
-      color: #FFFDE7;
-      text-decoration: none; }
-      .container nav a i {
-        padding-right: 20px; }
-    .container nav a:hover {
-      color: #328ef1; }
-    .container nav .tweeterBtn {
-      margin: 9.5px;
-      padding: 12px 57px;
-      -webkit-border-radius: 23px;
-      -moz-border-radius: 23px;
-      -ms-border-radius: 23px;
-      border-radius: 23px; }
-    @media screen and (max-width: 991px) {
-      .container nav .menu-text {
-        display: none; } }
-  .container main {
-    border: 1px solid grey; }
-    .container main .first-part .home {
-      margin-right: 80%;
-      margin-left: 10px;
-      font-weight: bold;
-      font-size: 1.2em;
-      padding-top: 15px;
-      padding-bottom: 15px; }
-    .container main .first-part .fa-star {
-      color: #328ef1;
-      padding-top: 15px;
-      padding-bottom: 15px; }
-    .container main .whats-happening .post-blocks {
-      border: 1px solid palevioletred;
-      display: flex;
-      flex-direction: row; }
-      .container main .whats-happening .post-blocks textarea {
-        background-color: #232525;
-        color: white; }
-      .container main .whats-happening .post-blocks .post-profile {
-        width: 10%;
-        border: 1px solid red;
-        margin: 0;
-        height: 100%; }
-      .container main .whats-happening .post-blocks .post-form {
-        width: 78%;
-        border: 1px solid chartreuse;
-        padding-top: 20px;
-        padding-left: 10px; }
-    .container main .whats-happening .fontawesomes {
-      padding: 3% 0 3% 10%; }
-      .container main .whats-happening .fontawesomes i {
-        padding-left: 10px; }
-      .container main .whats-happening .fontawesomes span {
-        border-right: 1px solid grey; }
-      .container main .whats-happening .fontawesomes .fa-smile {
-        padding-right: 110px; }
-  .container div[id="rightBlock"] {
-    border: 1px solid orangered; }
-    .container div[id="rightBlock"] .other-profiles {
-      width: 100%; }
-      .container div[id="rightBlock"] .other-profiles .heading {
-        width: 100%;
-        border: 1px solid wheat; }
-      .container div[id="rightBlock"] .other-profiles .profile-1 {
-        display: flex;
-        flex-direction: row;
-        width: 100%;
-        border: 1px solid wheat; }
-        .container div[id="rightBlock"] .other-profiles .profile-1 .profile-name {
-          width: 53%;
-          border: 1px solid yellow; }
-        .container div[id="rightBlock"] .other-profiles .profile-1 .profile-img {
-          width: 18%; }
-        .container div[id="rightBlock"] .other-profiles .profile-1 .follow-btn {
-          width: 29%; }
-        .container div[id="rightBlock"] .other-profiles .profile-1 div {
-          border: 1px solid orchid; }
+  min-width: 100%;
+}
+.container nav {
+  font-size: 1.2em;
+  font-weight: 650;
+  position: fixed;
+  /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1;
+  /* Stay on top */
+  top: 0;
+  /* Stay at the top */
+  left: 15px;
+}
+.container nav .fa-twitter {
+  color: white;
+  display: block;
+  padding: 8px;
+  margin-top: 10px;
+}
+.container nav svg {
+  color: white;
+}
+.container nav a {
+  color: #FFFDE7;
+  text-decoration: none;
+}
+.container nav a i {
+  padding-right: 20px;
+}
+.container nav a:hover {
+  color: #328ef1;
+}
+.container nav .tweeterBtn {
+  margin: 9.5px;
+  padding: 12px 57px;
+  -webkit-border-radius: 23px;
+  -moz-border-radius: 23px;
+  -ms-border-radius: 23px;
+  border-radius: 23px;
+}
+@media screen and (max-width: 991px) {
+  .container nav .menu-text {
+    display: none;
+  }
+}
+.container main {
+  border: 1px solid grey;
+}
+.container main .first-part {
+  border-bottom: 1px solid grey;
+}
+.container main .first-part .home {
+  margin-right: 80%;
+  margin-left: 10px;
+  font-weight: bold;
+  font-size: 1.2em;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.container main .first-part .fa-star {
+  color: #328ef1;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.container main .whats-happening .post-blocks {
+  display: flex;
+  flex-direction: row;
+}
+.container main .whats-happening .post-blocks textarea {
+  background-color: #151615;
+  color: white;
+  border: 1px solid #1c1d1d;
+}
+.container main .whats-happening .post-blocks .post-profile {
+  width: 10%;
+  margin-left: 10px;
+  margin-top: 3px;
+  height: 100%;
+}
+.container main .whats-happening .post-blocks .post-form {
+  width: 78%;
+  padding-top: 20px;
+  padding-left: 10px;
+}
+.container main .whats-happening .post-icons {
+  display: flex;
+  flex-direction: row;
+}
+.container main .whats-happening .post-icons .first-post-icons {
+  width: 50%;
+  margin-left: 10%;
+}
+.container main .whats-happening .post-icons .second-post-icons {
+  width: 50%;
+  margin-left: 15%;
+}
+.container main .whats-happening .post-icons .second-post-icons .fa-plus-circle {
+  border-left: 1px solid grey;
+}
+.container main .whats-happening .post-icons .second-post-icons button {
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  -ms-border-radius: 12px;
+  border-radius: 12px;
+  width: 45%;
+}
+.container main .whats-happening .post-icons i {
+  display: inline-block;
+  padding: 10px;
+  color: #328ef1;
+}
+.container div[id=rightBlock] {
+  border: 1px solid orangered;
+}
+.container div[id=rightBlock] .search {
+  margin: 0 auto;
+}
+.container div[id=rightBlock] .search form {
+  margin-top: 3px;
+}
+.container div[id=rightBlock] .search form input {
+  width: 100%;
+  -webkit-border-radius: 23px;
+  -moz-border-radius: 23px;
+  -ms-border-radius: 23px;
+  border-radius: 23px;
+  padding: 5px 5px 5px 30px;
+  color: white;
+  background-color: #1a1b1b;
+  border: 0.5px solid #1a1b1b;
+}
+.container div[id=rightBlock] .other-profiles {
+  width: 100%;
+}
+.container div[id=rightBlock] .other-profiles .heading {
+  width: 100%;
+  border: 1px solid wheat;
+}
+.container div[id=rightBlock] .other-profiles .profile-1 {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  border: 1px solid wheat;
+}
+.container div[id=rightBlock] .other-profiles .profile-1 .profile-name {
+  width: 53%;
+  border: 1px solid yellow;
+}
+.container div[id=rightBlock] .other-profiles .profile-1 .profile-img {
+  width: 18%;
+}
+.container div[id=rightBlock] .other-profiles .profile-1 .follow-btn {
+  width: 29%;
+}
+.container div[id=rightBlock] .other-profiles .profile-1 div {
+  border: 1px solid orchid;
+}
 
 /*# sourceMappingURL=main.css.map */

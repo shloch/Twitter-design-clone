@@ -5,3 +5,11 @@
   -ms-border-radius: $radius;
   border-radius: $radius;
 }
+
+@mixin round-border2($r) {
+  $radius:$r;
+  -webkit-border-radius: $radius;
+-moz-border-radius: $radius;
+-ms-border-radius: $radius;
+border-radius: $radius;
+}

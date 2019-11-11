@@ -1,4 +1,22 @@
 div[id="rightBlock" ]{
+  .search{
+    margin: 0 auto;
+    form{
+      margin-top: 3px;
+      input{
+        width:100%;
+        @include round-border;
+        padding: 5px 5px 5px 30px;
+        color: white;
+        background-color: #1a1b1b;
+        border: 0.5px solid #1a1b1b;
+      
+      }
+      button{
+        
+      }
+    }
+  }
  
   border: 1px solid orangered;
   .other-profiles {

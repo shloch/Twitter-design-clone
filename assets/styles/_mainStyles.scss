@@ -1,6 +1,7 @@
 main {
     border: 1px solid grey;
   .first-part {
+    border-bottom: 1px solid grey;
     .home {
       margin-right: 80%;
       margin-left: 10px;
@@ -8,6 +9,7 @@ main {
       font-size: 1.2em;
       padding-top: 15px;
       padding-bottom: 15px;
+     
     }
     .fa-star {
       color: rgb(50, 142, 241);
@@ -17,38 +19,49 @@ main {
   }
   .whats-happening {
     .post-blocks {
-      border: 1px solid palevioletred;
       display: flex;
       flex-direction: row;
       textarea{
         background-color: $darkThemeColor;
         color: white;
+        border: 1px solid #1c1d1d;
       }
       .post-profile {
         width: 10%;
-        border: 1px solid red;
-        margin: 0;
+        margin-left: 10px;
+        margin-top: 3px;
         height: 100%;
       }
       .post-form {
         width: 78%;
-        border: 1px solid chartreuse;
         padding-top: 20px;
         padding-left: 10px;
       }
       
     }
-    .fontawesomes{
-        padding: 3% 0 3% 10%;
-        i{
-            padding-left: 10px;
+    .post-icons{
+      display: flex;
+      flex-direction: row;
+      .first-post-icons{
+        width: 50%;
+        margin-left: 10%;
+      }
+      .second-post-icons{
+        width: 50%;
+        margin-left: 15%;
+        .fa-plus-circle{
+          border-left: 1px solid grey;
         }
-        span{
-            border-right: 1px solid grey;
+        button{
+          @include round-border2(12px);
+          width: 45%;
         }
-        .fa-smile{
-            padding-right: 110px;
-        }
+      }
+      i{
+        display: inline-block;
+        padding: 10px;
+        color:$signatureBlue;
+      }
         
     }
   }
