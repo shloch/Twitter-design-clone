@@ -14,14 +14,19 @@ $slimDarkBorder: rgb(73, 72, 72);
 body {
   background-color: $darkThemeColor;
   color: #EAE8D4;
+  .avatar {
+    border-radius: 50%;
+    width: 100%;
+  }
 }
 
 
 .container{
   min-width: 100%;
   @import 'navStyles';
-  @import 'mainStyles';
+  @import 'posting_form';
   @import 'asideBlock';
+  @import 'tweets';
 }
 
 
