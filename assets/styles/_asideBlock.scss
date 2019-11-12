@@ -6,43 +6,68 @@ div[id="rightBlock" ]{
       input{
         width:100%;
         @include round-border;
-        padding: 5px 5px 5px 30px;
+        padding: 5px 5px 5px 50px;
         color: white;
         background-color: #1a1b1b;
-        border: 0.5px solid #1a1b1b;
+        border: 0.5px solid rgb(73, 72, 72);
+        background-image:url('../images/search22.png');
+        background-size: 35px;
+        background-repeat:no-repeat;
+        background-position:left center;outline:0;
+      }
       
-      }
-      button{
-        
-      }
     }
   }
  
-  border: 1px solid orangered;
+ 
   .other-profiles {
     width:100%;
+    padding: 8px 0px;
+    
+    border: 1px solid rgb(73, 72, 72);
+    @include round-border;
     .heading {
       width: 100%;
-      border: 1px solid wheat;
+      padding-left: 8px;
+      color: $signatureWhite;
     }
     .profile-1 {
       display: flex;
       flex-direction: row;
       width: 100%;
-      border: 1px solid wheat;
+      padding: 8px 7px;
+      border: 1px solid rgb(73, 72, 72);
+      .twitter-account {
+        font-size: 0.8em;
+        color: grey;
+      }
       .profile-name {
-        width: 53%;
-        border: 1px solid yellow;
+        width: 55%;
       }
       .profile-img {
-        width: 18%;
+        width: 16%;
       }
       .follow-btn {
-        width: 29%;
+        width: 28%;
+        button {
+          border: 1px solid $signatureBlue;
+          color: $signatureBlue;
+          @include round-border2(5px);
+          padding: 2px 7px;
+          background-color: $darkThemeColor;
+        }
+        button:hover {
+          background-color: rgb(44, 43, 43);
+        }
+       
       }
-      div{
-        border: 1px solid orchid;
-      }
+     
     }
+  }
+
+  div[id="policy"] {
+    text-align: center;
+    font-size: 0.86em;
+    color: grey;
   }
 }

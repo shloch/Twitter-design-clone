@@ -2,20 +2,18 @@ main {
     border: 1px solid grey;
   .first-part {
     border-bottom: 1px solid grey;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 15px 7px 2px 7px;
     .home {
-      margin-right: 80%;
-      margin-left: 10px;
       font-weight: bold;
       font-size: 1.2em;
-      padding-top: 15px;
-      padding-bottom: 15px;
-     
     }
     .fa-star {
       color: rgb(50, 142, 241);
-      padding-top: 15px;
-      padding-bottom: 15px;
     }
+    
   }
   .whats-happening {
     .post-blocks {
@@ -27,13 +25,13 @@ main {
         border: 1px solid #1c1d1d;
       }
       .post-profile {
-        width: 10%;
+        width: 20%;
         margin-left: 10px;
         margin-top: 3px;
         height: 100%;
       }
       .post-form {
-        width: 78%;
+        width: 68%;
         padding-top: 20px;
         padding-left: 10px;
       }
@@ -55,14 +53,25 @@ main {
         button{
           @include round-border2(12px);
           width: 45%;
+          @media screen and (max-width: 586px) { 
+            @include round-border2(6px);
+            width: 55%;
+        }
         }
       }
       i{
         display: inline-block;
         padding: 10px;
         color:$signatureBlue;
+        @media screen and (max-width: 586px) { 
+            display: inline-block;
+            padding: 0px;
+            color:$signatureBlue;
+        }
+      }
       }
         
     }
-  }
+
+    
 }

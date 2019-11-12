@@ -7,6 +7,7 @@ nav {
     top: 0; /* Stay at the top */
     left: 15px;
     
+    
     .fa-twitter {
       color: white;
       display: block;
@@ -17,7 +18,7 @@ nav {
       color: white;
 
     }
-    a {
+    .nav-link {
       color: #FFFDE7;
       text-decoration: none;
       i {
@@ -32,7 +33,12 @@ nav {
       padding: 12px 57px;
       @include round-border;
     }
+    .mobile-post {display: none; color:$signatureBlue;padding-left: 16px;}
     @media screen and (max-width:991px) {
       .menu-text {display: none}
+      .mobile-post {
+        display: block;
+      }
+      .tweeterBtn {display: none;}
     }
   }
