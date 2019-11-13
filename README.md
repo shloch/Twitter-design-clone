@@ -28,4 +28,10 @@ Cloning twitter.com website, the dark theme mode
 
 
 ## Screenshot 
-![alt text](https://github.com/Shimele/Book-store-design/blob/master/screenshot.jpg)
+
+### on PC 
+![alt text](https://github.com/shloch/Twitter-design-clone/blob/dev/assets/images/screenshot_pc.png)
+
+### on mobile
+
+![alt text](https://github.com/shloch/Twitter-design-clone/blob/dev/assets/images/screenshot_mobile.png)
