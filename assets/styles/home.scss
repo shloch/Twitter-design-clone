@@ -1,0 +1,71 @@
+@import 'mixins';
+@import 'colors';
+
+$whiteText: #EAE8D4;
+
+div[class="container-fluid"] {
+  border: 1px solid blueviolet;
+  min-height: 400px;
+  .left {
+      background-color: $signatureBlue;
+      min-height: 684px;
+      margin: 0;
+      color: $whiteText;
+  }
+
+  .right {
+    background-color: $darkThemeColor;
+    height: 684px;
+    margin: 0;
+    color: $signatureBlue;
+    #welcome {
+      width:75%;
+      margin: auto;
+      margin-top: 20%;
+      min-height: 200px;
+      .logo-segment {
+        padding: 2% 0%;
+        #sideLogin button {
+          @include round-border2(8px);
+          padding: 3px 5px;
+          border: 1px solid $signatureBlue;
+          color: $signatureBlue;
+          background-color: $darkThemeColor;
+        }
+      }
+
+      div[class="logo-segment"] {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+      }
+
+      h2, h4 {
+        color: $whiteText;
+      }
+
+      div[id="signUp"],div[id="signIn"]  {
+        button {
+          display: block;
+          width: 100%;
+          @include round-border2(8px);
+          padding: 7px
+        }
+      }
+      
+
+      #signUp button {
+        color: $whiteText;
+        border: 1px solid $signatureBlue;
+        background-color: $signatureBlue;
+      }
+
+      #signIn button {
+        border: 1px solid $signatureBlue;
+          color: $signatureBlue;
+          background-color: $darkThemeColor;
+      }
+
+    }
+  }
+}

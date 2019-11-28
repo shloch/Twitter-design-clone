@@ -1,0 +1,53 @@
+div[class="container-fluid"] {
+  border: 1px solid blueviolet;
+  min-height: 400px; }
+  div[class="container-fluid"] .left {
+    background-color: #328ef1;
+    min-height: 684px;
+    margin: 0;
+    color: #EAE8D4; }
+  div[class="container-fluid"] .right {
+    background-color: #151615;
+    height: 684px;
+    margin: 0;
+    color: #328ef1; }
+    div[class="container-fluid"] .right #welcome {
+      width: 75%;
+      margin: auto;
+      margin-top: 20%;
+      min-height: 200px; }
+      div[class="container-fluid"] .right #welcome .logo-segment {
+        padding: 2% 0%; }
+        div[class="container-fluid"] .right #welcome .logo-segment #sideLogin button {
+          -webkit-border-radius: 8px;
+          -moz-border-radius: 8px;
+          -ms-border-radius: 8px;
+          border-radius: 8px;
+          padding: 3px 5px;
+          border: 1px solid #328ef1;
+          color: #328ef1;
+          background-color: #151615; }
+      div[class="container-fluid"] .right #welcome div[class="logo-segment"] {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between; }
+      div[class="container-fluid"] .right #welcome h2, div[class="container-fluid"] .right #welcome h4 {
+        color: #EAE8D4; }
+      div[class="container-fluid"] .right #welcome div[id="signUp"] button, div[class="container-fluid"] .right #welcome div[id="signIn"] button {
+        display: block;
+        width: 100%;
+        -webkit-border-radius: 8px;
+        -moz-border-radius: 8px;
+        -ms-border-radius: 8px;
+        border-radius: 8px;
+        padding: 7px; }
+      div[class="container-fluid"] .right #welcome #signUp button {
+        color: #EAE8D4;
+        border: 1px solid #328ef1;
+        background-color: #328ef1; }
+      div[class="container-fluid"] .right #welcome #signIn button {
+        border: 1px solid #328ef1;
+        color: #328ef1;
+        background-color: #151615; }
+
+/*# sourceMappingURL=home.css.map */
