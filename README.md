@@ -44,11 +44,6 @@ Cloning twitter.com website, the dark theme mode
 
 ### on mobile
 
-`index.html`
 ![alt text](https://github.com/shloch/Twitter-design-clone/blob/dev/screenshots/mobile/screenshot_1.png)
-
-`signIn.html`
 ![alt text](https://github.com/shloch/Twitter-design-clone/blob/dev/screenshots/mobile/screenshot_2.png)
-
-`dashboard.html`
 ![alt text](https://github.com/shloch/Twitter-design-clone/blob/dev/screenshots/mobile/screenshot_3.png)
