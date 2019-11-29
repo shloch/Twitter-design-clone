@@ -17,7 +17,7 @@
 
 ### About
 
-Cloning twitter.com website, the dark theme mode
+Cloning twitter.com website, the dark theme mode (Also added personal touches)
 
 
 ### Technologies
