@@ -30,8 +30,13 @@ Cloning twitter.com website, the dark theme mode
 ## Screenshot 
 
 ### on PC 
-![alt text](https://github.com/shloch/Twitter-design-clone/blob/dev/assets/images/screenshot_pc.png)
+![alt text](https://github.com/shloch/Twitter-design-clone/blob/dev/screenshots/desktop/screenshot_1.png)
+![alt text](https://github.com/shloch/Twitter-design-clone/blob/dev/screenshots/desktop/screenshot_2.png)
+![alt text](https://github.com/shloch/Twitter-design-clone/blob/dev/screenshots/desktop/screenshot_3.png)
+![alt text](https://github.com/shloch/Twitter-design-clone/blob/dev/screenshots/desktop/screenshot_4.png)
 
 ### on mobile
 
-![alt text](https://github.com/shloch/Twitter-design-clone/blob/dev/assets/images/screenshot_mobile.png)
+![alt text](https://github.com/shloch/Twitter-design-clone/blob/dev/screenshots/mobile/screenshot_1.png)
+![alt text](https://github.com/shloch/Twitter-design-clone/blob/dev/screenshots/mobile/screenshot_2.png)
+![alt text](https://github.com/shloch/Twitter-design-clone/blob/dev/screenshots/mobile/screenshot_3.png)
