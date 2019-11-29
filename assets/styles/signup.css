@@ -45,6 +45,9 @@ div[class="ruban"] {
     margin: auto;
     display: flex;
     flex-direction: row; }
+    @media screen and (max-width: 645px) {
+      div[class="ruban"] div[class="inner-content"] {
+        width: 80%; } }
     div[class="ruban"] div[class="inner-content"] div {
       padding: 3px 12px; }
     div[class="ruban"] div[class="inner-content"] .fa-twitter {

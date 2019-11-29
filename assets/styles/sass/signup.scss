@@ -58,6 +58,9 @@ div[class="ruban"] {
     //border:1px solid orangered;
     display: flex;
     flex-direction: row;
+    @media screen and (max-width: 645px) {
+      width: 80%;
+    }
     div {
       //border:1px solid yellow;
       padding: 3px 12px;
