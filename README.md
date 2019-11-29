@@ -27,7 +27,7 @@ Cloning twitter.com website, the dark theme mode (Also added personal touches)
 - JAVASCRIPT
 
 
-## Screenshot 
+## Screenshots
 
 ### on PC 
 `index.html`
