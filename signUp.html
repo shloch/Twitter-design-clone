@@ -9,38 +9,41 @@
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
     integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous" />
-  <link rel="stylesheet" href="assets/styles/home.css">
+  <link rel="stylesheet" href="assets/styles/signup.css">
   <title>Document</title>
 </head>
 
 <body>
-  <div class="container-fluid">
-    <div class="row">
-      <div class="col-sm-6 d-none d-sm-block left">blue</div>
-      <div class="col-sm-6 col-12 right">
-        <div id="welcome">
-          <div class="logo-segment">
-            <div id="logo"><i class="fab fa-twitter fa-2x"></i></div>
-            <div id="sideLogin">
-              <a href="#"><button>Log in</button></a>
-            </div>
-          </div>
-          <h2>See What's happening in the world right now</h2>
-          <br /><br /><br />
-          <h4> Join twitter today</h4>
-          <div id="signUp">
-            <a href="#"><button> Sign up</button></a>
-          </div> <br />
-          <div id="signIn">
-            <a href="#"><button> Log in</button></a>
-          </div>
-        </div>
-      </div>
+  <div id="sign-up">
+    <div class="logo">
+      <a href="index.html">
+        <i class="fab fa-twitter fa-2x"></i>
+      </a>
     </div>
+    <form>
+      <div class="form-group">
+        <label for="exampleInputPassword1">Name</label>
+        <input type="text" class="form-control" placeholder="Full name" required>
+      </div>
+      <div class="form-group">
+        <label for="exampleInputPassword1">Username</label>
+        <input type="text" class="form-control" placeholder="Twitter username" required>
+      </div>
+      <div class="form-group">
+        <label for="exampleInputEmail1">Email address</label>
+        <input type="email" class="form-control" placeholder="email address" aria-describedby="emailHelp">
+        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+      </div>
+      <div class="form-group">
+        <label for="exampleInputPassword1">Password</label>
+        <input type="password" class="form-control" id="exampleInputPassword1" required>
+      </div>
+
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
   </div>
 
 
-  <footer></footer>
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
     crossorigin="anonymous"></script>

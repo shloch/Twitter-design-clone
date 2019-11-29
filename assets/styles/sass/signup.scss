@@ -1,0 +1,69 @@
+@import 'mixins';
+@import 'colors';
+
+$whiteText: #EAE8D4;
+
+body {
+  background-color: rgb(53, 54, 53);
+}
+
+div[id="sign-up"] {
+  border: 1px solid $darkThemeColor;
+  width: 50%;
+  margin: 5% auto;
+  padding:2%;
+  color: $signatureBlue;
+  background-color: $darkThemeColor;
+  @include round-border2(11px);
+  @media screen and (max-width: 645px) {
+    width: 80%;
+    padding:5%;
+  }
+  div[class="logo"] {
+    text-align: center;
+  }
+  .btn {
+    margin-left: 40%;;
+  }
+  input {
+    background-color: rgb(53, 54, 53);
+    border:1px solid rgb(53, 54, 53);
+  }
+  input:focus {
+    
+    color: $whiteText;
+    background-color: rgb(53, 54, 53);
+    border:1px solid rgb(53, 54, 53);
+    border-bottom: 3px solid $signatureBlue;
+  }
+}
+
+/* signin upper ruban */ 
+
+h2 {
+  color: $whiteText;
+}
+div[class="ruban"] {
+  background-color: $darkThemeColor;
+  a {
+    color: $whiteText;
+  }
+  a:hover {
+    text-decoration: none;
+  }
+  div[class="inner-content"] {
+    color: $whiteText;
+    width: 50%;
+    margin: auto;
+    //border:1px solid orangered;
+    display: flex;
+    flex-direction: row;
+    div {
+      //border:1px solid yellow;
+      padding: 3px 12px;
+    }
+    .fa-twitter {
+      color: $signatureBlue;
+    }
+  }
+}

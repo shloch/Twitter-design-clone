@@ -1,15 +1,20 @@
+body {
+  background-color: #151615; }
+
 div[class="container-fluid"] {
-  border: 1px solid blueviolet;
   min-height: 400px; }
   div[class="container-fluid"] .left {
     background-color: #328ef1;
-    min-height: 684px;
-    margin: 0;
+    min-height: 80%;
     color: #EAE8D4; }
+    div[class="container-fluid"] .left div[class="rows-3"] {
+      width: 75%;
+      margin: auto;
+      margin-top: 25%; }
   div[class="container-fluid"] .right {
     background-color: #151615;
-    height: 684px;
-    margin: 0;
+    min-height: 80%;
+    padding-bottom: 14%;
     color: #328ef1; }
     div[class="container-fluid"] .right #welcome {
       width: 75%;
@@ -49,5 +54,21 @@ div[class="container-fluid"] {
         border: 1px solid #328ef1;
         color: #328ef1;
         background-color: #151615; }
+
+footer {
+  display: flex;
+  flex-direction: row;
+  background-color: #151615;
+  color: #92928b;
+  justify-content: space-between;
+  font-size: 0.7em; }
+  footer div {
+    padding: 3px 5px; }
+  @media screen and (max-width: 938px) {
+    footer {
+      display: block; }
+      footer div {
+        font-size: 0.5em;
+        text-align: center; } }
 
 /*# sourceMappingURL=home.css.map */

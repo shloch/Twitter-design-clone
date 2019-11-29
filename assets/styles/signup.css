@@ -1,0 +1,53 @@
+body {
+  background-color: #353635; }
+
+div[id="sign-up"] {
+  border: 1px solid #151615;
+  width: 50%;
+  margin: 5% auto;
+  padding: 2%;
+  color: #328ef1;
+  background-color: #151615;
+  -webkit-border-radius: 11px;
+  -moz-border-radius: 11px;
+  -ms-border-radius: 11px;
+  border-radius: 11px; }
+  @media screen and (max-width: 645px) {
+    div[id="sign-up"] {
+      width: 80%;
+      padding: 5%; } }
+  div[id="sign-up"] div[class="logo"] {
+    text-align: center; }
+  div[id="sign-up"] .btn {
+    margin-left: 40%; }
+  div[id="sign-up"] input {
+    background-color: #353635;
+    border: 1px solid #353635; }
+  div[id="sign-up"] input:focus {
+    color: #EAE8D4;
+    background-color: #353635;
+    border: 1px solid #353635;
+    border-bottom: 3px solid #328ef1; }
+
+/* signin upper ruban */
+h2 {
+  color: #EAE8D4; }
+
+div[class="ruban"] {
+  background-color: #151615; }
+  div[class="ruban"] a {
+    color: #EAE8D4; }
+  div[class="ruban"] a:hover {
+    text-decoration: none; }
+  div[class="ruban"] div[class="inner-content"] {
+    color: #EAE8D4;
+    width: 50%;
+    margin: auto;
+    display: flex;
+    flex-direction: row; }
+    div[class="ruban"] div[class="inner-content"] div {
+      padding: 3px 12px; }
+    div[class="ruban"] div[class="inner-content"] .fa-twitter {
+      color: #328ef1; }
+
+/*# sourceMappingURL=signup.css.map */

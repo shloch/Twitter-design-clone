@@ -3,20 +3,30 @@
 
 $whiteText: #EAE8D4;
 
+body {
+  background-color: $darkThemeColor;
+}
 div[class="container-fluid"] {
-  border: 1px solid blueviolet;
+  //border: 1px solid blueviolet;
   min-height: 400px;
+  
   .left {
       background-color: $signatureBlue;
-      min-height: 684px;
-      margin: 0;
+      min-height: 80%;
+      //margin: 0;
       color: $whiteText;
+      div[class="rows-3"] {
+        width: 75%;
+        margin: auto;
+        margin-top: 25%;
+      }
   }
 
   .right {
     background-color: $darkThemeColor;
-    height: 684px;
-    margin: 0;
+    min-height: 80%;
+    //margin: 0;
+    padding-bottom: 14%;
     color: $signatureBlue;
     #welcome {
       width:75%;
@@ -67,5 +77,25 @@ div[class="container-fluid"] {
       }
 
     }
+  }
+}
+footer {
+  display: flex;
+  flex-direction: row;
+  background-color: $darkThemeColor;
+  color: rgb(146, 146, 139);
+  justify-content: space-between;
+  font-size: 0.7em;
+  div {
+   padding: 3px 5px;
+   
+  }
+  @media screen and (max-width: 938px) {
+    display: block;
+    div {
+      font-size: 0.5em;
+      text-align: center;
+    }
+    
   }
 }
