@@ -30,7 +30,9 @@ Cloning twitter.com website, the dark theme mode
 ## Screenshot 
 
 ### on PC 
+`index.html`
 ![alt text](https://github.com/shloch/Twitter-design-clone/blob/dev/screenshots/desktop/screenshot_1.png)
+`signIn.html`
 ![alt text](https://github.com/shloch/Twitter-design-clone/blob/dev/screenshots/desktop/screenshot_2.png)
 ![alt text](https://github.com/shloch/Twitter-design-clone/blob/dev/screenshots/desktop/screenshot_3.png)
 ![alt text](https://github.com/shloch/Twitter-design-clone/blob/dev/screenshots/desktop/screenshot_4.png)
