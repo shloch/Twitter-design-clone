@@ -20,7 +20,8 @@
 Cloning twitter.com website, the dark theme mode (Also added personal touches)
 
 ### Live demo
-_https://raw.githack.com/shloch/Twitter-design-clone/dev/index.html_
+- _https://raw.githack.com/shloch/Twitter-design-clone/dev/index.html_
+- _https://raw.githack.com/shloch/Twitter-design-clone/dev/dashboard.html_
 
 ### Technologies
 
