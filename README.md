@@ -19,6 +19,9 @@
 
 Cloning twitter.com website, the dark theme mode (Also added personal touches)
 
+### Live demo
+- _https://raw.githack.com/shloch/Twitter-design-clone/dev/index.html_
+- _https://raw.githack.com/shloch/Twitter-design-clone/dev/dashboard.html_
 
 ### Technologies
 
@@ -46,6 +49,7 @@ Cloning twitter.com website, the dark theme mode (Also added personal touches)
 
 ![alt text](https://github.com/shloch/Twitter-design-clone/blob/dev/screenshots/mobile/screenshot_1.png)
 ![alt text](https://github.com/shloch/Twitter-design-clone/blob/dev/screenshots/mobile/screenshot_2.png)
+<<<<<<< HEAD
 ![alt text](https://github.com/shloch/Twitter-design-clone/blob/dev/screenshots/mobile/screenshot_3.png)
 
 
@@ -61,3 +65,8 @@ Cloning twitter.com website, the dark theme mode (Also added personal touches)
 ## 👤 **Belynda Agbor**
 - Github: [Belynda](https://github.com/Shimele)
 - Belynda AGbor https://twitter.com/B_codiing
+||||||| merged common ancestors
+![alt text](https://github.com/shloch/Twitter-design-clone/blob/dev/screenshots/mobile/screenshot_3.png)
+=======
+![alt text](https://github.com/shloch/Twitter-design-clone/blob/dev/screenshots/mobile/screenshot_3.png)
+>>>>>>> 58cc3d12093aa8addf23e3992eadc05cf12d947f
