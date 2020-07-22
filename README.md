@@ -17,7 +17,7 @@
 
 ### About
 
-Cloning twitter.com website, the dark theme mode (Also added personal touches)
+Cloning Twitter.com website, the dark theme mode (Also added personal touches)
 
 ### Live demo
 - _https://raw.githack.com/shloch/Twitter-design-clone/dev/index.html_
@@ -27,7 +27,7 @@ Cloning twitter.com website, the dark theme mode (Also added personal touches)
 
 - HTML
 - CSS/SASS/Bootstrap
-- JAVASCRIPT
+- Javascript
 
 
 ## Screenshots
@@ -58,10 +58,11 @@ Cloning twitter.com website, the dark theme mode (Also added personal touches)
 
 - Github: [shloch](https://github.com/shloch)
 - Twitter: [@shloch](https://twitter.com/shloch)
-- Linkedin: [/in/shey-louis-chia](https://www.linkedin.com/in/shey-louis-chia)
+- LinkedIn: [/in/shey-louis-chia](https://www.linkedin.com/in/shey-louis-chia)
 - Email: shloch2007@yahoo.fr
 
 ## 👤 **Belynda Agbor**
 - Github: [Belynda](https://github.com/Shimele)
-- Belynda AGbor https://twitter.com/B_codiing
+- Twitter: https://twitter.com/B_codiing
+- LinkedIn: https://www.linkedin.com/in/belynda-bechem-agbor-b21517127/
 
