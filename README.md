@@ -66,3 +66,8 @@ Cloning Twitter.com website, the dark theme mode (Also added personal touches)
 - Twitter: https://twitter.com/B_codiing
 - LinkedIn: https://www.linkedin.com/in/belynda-bechem-agbor-b21517127/
 
+## Acknowledgements
+- https://getbootstrap.com
+- https://sass-lang.com/
+- https://raw.githack.com/
+
