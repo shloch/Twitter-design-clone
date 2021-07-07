@@ -29,7 +29,6 @@ Cloning Twitter.com website, the dark theme mode (Also added personal touches)
 - CSS/SASS/Bootstrap
 - Javascript
 
-
 ## Screenshots
 
 ### on PC 
